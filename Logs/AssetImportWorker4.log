@@ -1,0 +1,869 @@
+Unity Editor version:    6000.2.4f1 (17550c9bb584)
+Branch:                  6000.2/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #79~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 15 16:54:53 UTC 2
+Kernel version:          6.8.0-79-generic
+Architecture:            x86_64
+Available memory:        31805 MB
+Date:                    2025-10-16T07:10:34Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne" at "2025-10-16T07:10:34.70176Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.2'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-alumne"
+[Licensing::IpcConnector] LicenseClient-alumne channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne-6000.2.4" at "2025-10-16T07:10:34.702638Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.2+ff71f16
+  Session Id:              4adff6434a08457f8429ad1535d63f17
+  Correlation Id:          b25f75ad2d67e1e0effb5ff3ea1d6c4f
+  External correlation Id: 3955132879775985148
+  Machine Id:              PBfslzCGj3XDXh96AHqdGvRuB7g=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-alumne-6000.2.4" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne-6000.2.4-notifications" at "2025-10-16T07:10:34.703464Z"
+[Licensing::Module] Licensing Background thread has ended after 0.00s
+Selected window backend: (null) 
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+/home/alumne/Scape_Room
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+44969
+-licensingIpc
+LicenseClient-alumne
+-job-worker-count
+9
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: /home/alumne/Scape_Room
+
+(Unity:19181): Gtk-CRITICAL **: 09:10:34.950: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+
+(Unity:19181): Gtk-CRITICAL **: 09:10:35.014: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+/home/alumne/Scape_Room
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140326274759424]  Target information:
+
+Player connection [140326274759424]  * "[IP] 192.168.96.79 [Port] 0 [Flags] 2 [Guid] 1416452110 [EditorId] 1416452110 [Version] 1048832 [Id] LinuxEditor(16,192.168.96.79) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [140326274759424]  * "[IP] 192.168.122.1 [Port] 0 [Flags] 2 [Guid] 1416452110 [EditorId] 1416452110 [Version] 1048832 [Id] LinuxEditor(16,192.168.96.79) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [140326274759424] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140326274759424] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0,74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Initialize engine version: 6000.2.4f1 (17550c9bb584)
+[Subsystems] Discovering subsystems at path /home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/alumne/Scape_Room/Assets
+kGfxThreadingModeNonThreaded is not supported on OpenGL Core. Reverting to kGfxThreadingModeDirect instead.
+GfxDevice: creating device client; kGfxThreadingModeDirect
+GLX Extensions: GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_visual_info GLX_EXT_visual_rating GLX_EXT_import_context GLX_SGI_video_sync GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGI_swap_control GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_buffer_age GLX_ARB_create_context GLX_ARB_create_context_profile GLX_NV_float_buffer GLX_ARB_fbconfig_float GLX_EXT_texture_from_pixmap GLX_EXT_framebuffer_sRGB GLX_NV_copy_image GLX_EXT_create_context_es_profile GLX_EXT_create_context_es2_profile GLX_ARB_create_context_no_error GLX_ARB_create_context_robustness GLX_NV_delay_before_swap GLX_EXT_stereo_tree GLX_ARB_context_flush_control GLX_NV_robustness_video_memory_purge GLX_NV_multigpu_context 
+Renderer: NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2
+Vendor:   NVIDIA Corporation
+Version:  4.5.0 NVIDIA 535.247.01
+GLES:     0
+ GL_AMD_multi_draw_indirect GL_AMD_seamless_cubemap_per_texture GL_AMD_vertex_shader_viewport_index GL_AMD_vertex_shader_layer GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragmen
+t_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoki
+ng_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_locations GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_A
+RB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_t
+ranspose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters 
+GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_multiview_texture_multisample GL_EXT_multiview_timer_query GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_post_depth_coverage GL_EXT_provoking_vertex GL_EXT_raster_multisample GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_sparse_texture2 GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_lod G
+L_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_fd GL_NV_memory_object_sparse GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_fd GL_NV_timeline_semaphore GL_KHR_shader_subgroup GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_
+blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffers GL_NV_blend_minmax_factor GL_NV_blend_square GL_NV_clip_space_w_scaling GL_NV_command_list GL_NV_compute_program5 GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_conservative_raster GL_NV_conservative_raster_dilate GL_NV_conservative_raster_pre_snap GL_NV_conservative_raster_pre_snap_triangles GL_NV_conservative_raster_underestimation GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_feature_query GL_NV_fence GL_NV_fill_rectangle GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_coverage_to_color GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_fragment_shader_barycentric GL_NV_fragment_shader_interlock GL_NV_framebuffer_mixed_samples GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_geometry_sha
+der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_shader_texture
+_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR
+_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1461237560
+Initialize mono
+Mono path[0] = '/home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/Managed'
+Mono path[1] = '/home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56181
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0,000807 seconds.
+- Loaded All Assemblies, in  0,237 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0,265 seconds
+Domain Reload Profiling: 502ms
+	BeginReloadAssembly (53ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (115ms)
+		LoadAssemblies (53ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (113ms)
+			TypeCache.Refresh (112ms)
+				TypeCache.ScanAssembly (103ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (265ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (231ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (88ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 6872782475460-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0,469 seconds
+Refreshing native plugins compatible for Editor in 0,19 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0,532 seconds
+Domain Reload Profiling: 1001ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (309ms)
+		LoadAssemblies (176ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (118ms)
+			BuildScriptInfoCaches (31ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (533ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (391ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (259ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+AutoLocale: current locale expects 'C' but got 'ca_ES.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6115 unused Assets / (5.5 MB). Loaded Objects now: 6811.
+Memory consumption went from 124.4 MB to 119.0 MB.
+Total: 8.077833 ms (FindLiveObjects: 0.441480 ms CreateObjectMapping: 0.527953 ms MarkObjects: 4.225709 ms  DeleteObjects: 2.882029 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4245.264478 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Architecture/Materials
+  artifactKey: Guid(b25243f8df20d7ec5b081092e7bc87f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Architecture/Materials using Guid(b25243f8df20d7ec5b081092e7bc87f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06044cdf5b152341d6500046bedc468e') in 0.002209082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073300 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Architecture/Materials/No Name.mat
+  artifactKey: Guid(cd5cecab30c4c3f9facc944632aed2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Architecture/Materials/No Name.mat using Guid(cd5cecab30c4c3f9facc944632aed2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3adcad3b59aa3dba1e03f02460723293') in 0.949161508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.148046 seconds.
+  path: Assets/BK_AlchemistHouse
+  artifactKey: Guid(db65d0931c92bc0479ca64bda11aefda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse using Guid(db65d0931c92bc0479ca64bda11aefda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '637fd47e3357923826998ceff329b06c') in 0.000298801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.236616 seconds.
+  path: Assets/BK_AlchemistHouse/Prefabs
+  artifactKey: Guid(f3ea860fd6dba79429c64a2ee78620de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Prefabs using Guid(f3ea860fd6dba79429c64a2ee78620de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63db9f03d5c69d4bc7693cbd50a1bc1b') in 0.000347515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069453 seconds.
+  path: Assets/BK_AlchemistHouse/Prefabs/Camera.prefab
+  artifactKey: Guid(10899ca432e87ce4eb8f93c0c7216a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Prefabs/Camera.prefab using Guid(10899ca432e87ce4eb8f93c0c7216a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ac3f958e9abf3c0429382de98336ff9') in 0.005380991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.374920 seconds.
+  path: Assets/BK_AlchemistHouse/Prefabs/Architecture
+  artifactKey: Guid(20fb42a4d2069b54f897f77470e9c2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Prefabs/Architecture using Guid(20fb42a4d2069b54f897f77470e9c2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ece936c3d3aab06593293f3de319b757') in 0.000271887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.104641 seconds.
+  path: Assets/BK_AlchemistHouse/Prefabs/Architecture/Door.prefab
+  artifactKey: Guid(ff36c605a739def44ad4a550d4ab7d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Prefabs/Architecture/Door.prefab using Guid(ff36c605a739def44ad4a550d4ab7d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c335b5611bd66e1759b2147e2e207242') in 0.050684705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BK_AlchemistHouse/Prefabs/Architecture/WoodStairs.prefab
+  artifactKey: Guid(e659ac473f42b244dbbecd69649dcabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Prefabs/Architecture/WoodStairs.prefab using Guid(e659ac473f42b244dbbecd69649dcabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4386c66b2681e742e56d3909cd9ffbcd') in 0.014630071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BK_AlchemistHouse/Prefabs/Architecture/IntWall01door.prefab
+  artifactKey: Guid(addd729f352e5f24d87081abd4615e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Prefabs/Architecture/IntWall01door.prefab using Guid(addd729f352e5f24d87081abd4615e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61c038d6d3a3c7197172707beed23df5') in 0.035300639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BK_AlchemistHouse/Prefabs/Architecture/IntWoodFence01.prefab
+  artifactKey: Guid(803da732647146e4b96c63ff23d4df57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Prefabs/Architecture/IntWoodFence01.prefab using Guid(803da732647146e4b96c63ff23d4df57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04ae7a05647d4c80b3793bdae1ded9d1') in 0.011083172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.189208 seconds.
+  path: Assets/BK_AlchemistHouse/Resources
+  artifactKey: Guid(5919993d1c37fbf4aa81fe8155535ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Resources using Guid(5919993d1c37fbf4aa81fe8155535ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4832bee4b9ea11b5b927c6d7bf100817') in 0.000282883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.084659 seconds.
+  path: Assets/BK_AlchemistHouse/Resources/LittleFriction.physicMaterial
+  artifactKey: Guid(e7b491f7357829d40909ae41516436f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Resources/LittleFriction.physicMaterial using Guid(e7b491f7357829d40909ae41516436f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5273df18433cda9503adc35348acca8f') in 0.000626164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.828602 seconds.
+  path: Assets/BK_AlchemistHouse/Resources/Shaders
+  artifactKey: Guid(c9f239cef5e73814c8f06ef3eaf6feb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Resources/Shaders using Guid(c9f239cef5e73814c8f06ef3eaf6feb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4963cec653256683b7ced288a2368914') in 0.000305396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.812212 seconds.
+  path: Assets/BK_AlchemistHouse/Textures
+  artifactKey: Guid(d05ba0461b619474ca61462b6ab8a5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures using Guid(d05ba0461b619474ca61462b6ab8a5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e288bde762b7fab4879dd680e0291bf1') in 0.000284815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.908543 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Particles
+  artifactKey: Guid(e4a53b9c0a1c4fa408ab1450f51eecfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Particles using Guid(e4a53b9c0a1c4fa408ab1450f51eecfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f927307f148d99387a84770b1e61333b') in 0.000304797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.131847 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Particles/Bubble.png
+  artifactKey: Guid(42b29fc8d1ba5034281bb180ba42511d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Particles/Bubble.png using Guid(42b29fc8d1ba5034281bb180ba42511d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9d08ff91c463ba3c461da02b57524cb') in 0.011394802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.733683 seconds.
+  path: Assets/BK_AlchemistHouse/Prefabs/Furniture
+  artifactKey: Guid(79e8b675e37d3714397d054148203bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Prefabs/Furniture using Guid(79e8b675e37d3714397d054148203bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccef4f2b0a199e34b52f1829707f7738') in 0.000280208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.286147 seconds.
+  path: Assets/BK_AlchemistHouse/Prefabs/Furniture/Alembic02.prefab
+  artifactKey: Guid(6e9e4a7b4dba70144b6fb564214b013d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Prefabs/Furniture/Alembic02.prefab using Guid(6e9e4a7b4dba70144b6fb564214b013d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c60243efecaa7ab5a604a81fc6e7ac2b') in 0.013576004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BK_AlchemistHouse/Prefabs/Furniture/WoodCupboard03.prefab
+  artifactKey: Guid(d13fce7de3764704598f3d1300a7586c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Prefabs/Furniture/WoodCupboard03.prefab using Guid(d13fce7de3764704598f3d1300a7586c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '161983cf933d67c768ad6c278a95cb08') in 0.082272418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/BK_AlchemistHouse/Prefabs/Furniture/Chair01.prefab
+  artifactKey: Guid(e68a619303cb1e44ea3dde236af3366e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Prefabs/Furniture/Chair01.prefab using Guid(e68a619303cb1e44ea3dde236af3366e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71690f36152ac649e3b86eac69b155aa') in 0.009769887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/BK_AlchemistHouse/Prefabs/Furniture/TableSink.prefab
+  artifactKey: Guid(cd3d04d301704534cb4cf5489f62aaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Prefabs/Furniture/TableSink.prefab using Guid(cd3d04d301704534cb4cf5489f62aaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1cb08a7b24795de974f5c306fc38fc73') in 0.01315924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 319.905907 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Furniture/Workbench.FBX
+  artifactKey: Guid(6d42518e125c0954b930b1a95249c612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Furniture/Workbench.FBX using Guid(6d42518e125c0954b930b1a95249c612) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '259901a52a4bbce1694d749cf90c2045') in 0.153753994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.215753 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Furniture/WoodCupboard02.FBX
+  artifactKey: Guid(1d04056b1c6aa2a419797b0063d19c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Furniture/WoodCupboard02.FBX using Guid(1d04056b1c6aa2a419797b0063d19c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75e2f0aee29f3c55fabc6e7f4223f773') in 0.008607615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008868 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Lab/LabSetup03.FBX
+  artifactKey: Guid(52f7b81a11630b34ea89090c3ed6ff48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Lab/LabSetup03.FBX using Guid(52f7b81a11630b34ea89090c3ed6ff48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37b3f5c57bd0f4b3c60157001fca07f8') in 0.094637243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 98
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.430432 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Lab/LabSetup02.FBX
+  artifactKey: Guid(26e6bae5ccf202c4784d944e0b4f7caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Lab/LabSetup02.FBX using Guid(26e6bae5ccf202c4784d944e0b4f7caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4c215bf0cdcb660290ca6e6ccd1ce5e') in 0.113929171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 76
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.999297 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Misc/Trunk01.FBX
+  artifactKey: Guid(e2474ed401ef03c4aa5fc264f3f26317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Misc/Trunk01.FBX using Guid(e2474ed401ef03c4aa5fc264f3f26317) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c53173e147fd6f8ec7908df9db5c911') in 0.007958065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043095 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Furniture/TableSink.FBX
+  artifactKey: Guid(0947ffe7d00408b47a0055dee1ad55b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Furniture/TableSink.FBX using Guid(0947ffe7d00408b47a0055dee1ad55b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '902ac069719261fb3f71a1ccc575a4a2') in 0.008670529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045791 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Furniture/table03.FBX
+  artifactKey: Guid(7611197c844888d44acc827a3c5476df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Furniture/table03.FBX using Guid(7611197c844888d44acc827a3c5476df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a3ca9e53666a71f84ea11b48493519c') in 0.00926025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053484 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Furniture/WoodTableSquare01.FBX
+  artifactKey: Guid(3608d401902bb864eb31a423f5264386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Furniture/WoodTableSquare01.FBX using Guid(3608d401902bb864eb31a423f5264386) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6dfc3c2eaa2ee816c69ff15a5b80d16a') in 0.006443961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.957491 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Weapons/Staff01.FBX
+  artifactKey: Guid(9c20e78104582e24ba4862b6d4958edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Weapons/Staff01.FBX using Guid(9c20e78104582e24ba4862b6d4958edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b64cc0a8be3ad28e29a7c957d27a1fc') in 0.007476749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.460772 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Lab/liquid.FBX
+  artifactKey: Guid(03884c3c167a0ab4dabc169da94e5ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Lab/liquid.FBX using Guid(03884c3c167a0ab4dabc169da94e5ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ded8ffe0b8b46c030ede46bc585f0d2f') in 0.006450692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.468587 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Lab/Bulb.FBX
+  artifactKey: Guid(e84b9906fe52b72498aa8109768e1de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Lab/Bulb.FBX using Guid(e84b9906fe52b72498aa8109768e1de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80ba80d2683e706583805e5c13423267') in 0.01945752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.738742 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Organic/Skull02.FBX
+  artifactKey: Guid(2dc514a2299c0a94b8818454e269a40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Organic/Skull02.FBX using Guid(2dc514a2299c0a94b8818454e269a40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c5985ada8f8ddb423618757cc5b5232') in 0.006362774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014006 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Organic/Skull01.FBX
+  artifactKey: Guid(c19276309eb41c9479db16d861cb9911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Organic/Skull01.FBX using Guid(c19276309eb41c9479db16d861cb9911) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd68b96ea0135bd26936a1a8fe35759c0') in 0.014642598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051257 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Misc/painting02.FBX
+  artifactKey: Guid(63059505d427c2749bba923d868c0fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Misc/painting02.FBX using Guid(63059505d427c2749bba923d868c0fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '488c478f73d6f375eeb5b8292fa6b822') in 0.006051176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.524237 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Misc/painting04.FBX
+  artifactKey: Guid(223efe9992353ec4bbbcef7cfa1b7e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Misc/painting04.FBX using Guid(223efe9992353ec4bbbcef7cfa1b7e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '101509bb22cf4d2f1885a66afc35a966') in 0.009134632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.475753 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Furniture/Stove1.FBX
+  artifactKey: Guid(8805f767d23dae74fa395054dbf599cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Furniture/Stove1.FBX using Guid(8805f767d23dae74fa395054dbf599cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '895a2ff9dbdf02aefdf3e0e8a20ac8b5') in 0.010719721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.520102 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Furniture/Chair01.FBX
+  artifactKey: Guid(0bfbc1f900c9d3041b0813ff447e67cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Furniture/Chair01.FBX using Guid(0bfbc1f900c9d3041b0813ff447e67cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a674457a409138991658dcd56de86334') in 0.008611002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.823312 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Furniture/Drawer03.FBX
+  artifactKey: Guid(82a3f57cffd71f342bfbca645affd273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Furniture/Drawer03.FBX using Guid(82a3f57cffd71f342bfbca645affd273) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee046251477128bb218dde089d0a3fd9') in 0.010661934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.410579 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Misc/painting03.FBX
+  artifactKey: Guid(b9ae5b04624a71f4aadb405a286ad092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Misc/painting03.FBX using Guid(b9ae5b04624a71f4aadb405a286ad092) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e0f07635dd4471e216bd0fd71eb110c') in 0.015849804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.739360 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Misc/Log03.FBX
+  artifactKey: Guid(887cced63749746438c5f2645a8d0f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Misc/Log03.FBX using Guid(887cced63749746438c5f2645a8d0f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcac0ffd62d3a83103ef82cab7586832') in 0.013976929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.916134 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Misc/Log01.FBX
+  artifactKey: Guid(862d2c3f645ca594381e571018579402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Misc/Log01.FBX using Guid(862d2c3f645ca594381e571018579402) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4436a8f0e78bceb16a757856fed4e562') in 0.008567953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067869 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Bottles/Jar.FBX
+  artifactKey: Guid(8f28708aab45e9c48a951b5c627f55cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Bottles/Jar.FBX using Guid(8f28708aab45e9c48a951b5c627f55cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5a6d35ee2cee9a637d4fbb1f081ee1a') in 0.022167461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.234262 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Ingredients/Ingredient06.FBX
+  artifactKey: Guid(9475855e5aea8c84e9b5abc5963f65cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Ingredients/Ingredient06.FBX using Guid(9475855e5aea8c84e9b5abc5963f65cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d4b9ca9bb3f5db69444d1df8953486a') in 0.007417858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Ingredients/Ingredient07.FBX
+  artifactKey: Guid(555cd5d74cb98ff4897c2b196a628f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Ingredients/Ingredient07.FBX using Guid(555cd5d74cb98ff4897c2b196a628f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09da9400014eceeae681304a4c395449') in 0.008599838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057291 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Ingredients/Ingredient04.FBX
+  artifactKey: Guid(1f1d55d3f568f8542b91749b7fad4e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Ingredients/Ingredient04.FBX using Guid(1f1d55d3f568f8542b91749b7fad4e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b222d195a83ac45f4315ca2123e41f06') in 0.013101634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Ingredients/Ingredient03.FBX
+  artifactKey: Guid(e4d5e34d599aae046a2a321eacd3be1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Ingredients/Ingredient03.FBX using Guid(e4d5e34d599aae046a2a321eacd3be1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c2b60f6515b292e00b03f70a085b49c') in 0.016052431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.463405 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Organic/Bulb01.FBX
+  artifactKey: Guid(60b8b32f39425a644b53ff45978adb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Organic/Bulb01.FBX using Guid(60b8b32f39425a644b53ff45978adb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3f69496dc1de30af016b55c59a58fbb') in 0.006956162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010102 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Misc/Globe.FBX
+  artifactKey: Guid(aa7bd5dc2dc02bf43a27603f593dad34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Misc/Globe.FBX using Guid(aa7bd5dc2dc02bf43a27603f593dad34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd99a1e78257f7a418873447e77b44932') in 0.006339969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013118 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Bottles/Flask06.FBX
+  artifactKey: Guid(025553b728ff5764db5dfc01c336a53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Bottles/Flask06.FBX using Guid(025553b728ff5764db5dfc01c336a53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51ecfbe6f05dc66586e17d45b9bbc178') in 0.005979469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031431 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Bottles/Flask04.FBX
+  artifactKey: Guid(f2e98dca3185dc649b8764af679b9159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Bottles/Flask04.FBX using Guid(f2e98dca3185dc649b8764af679b9159) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56bb8ba5cd09017411b2a261144ed5b0') in 0.006449251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.107198 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Bottles/Flask02.FBX
+  artifactKey: Guid(7cc410e3540dbf04991e20fd3f5379ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Bottles/Flask02.FBX using Guid(7cc410e3540dbf04991e20fd3f5379ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8aafcc8dd7434dd4afdc85983da96410') in 0.012199024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066667 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Furniture/Drawer01.FBX
+  artifactKey: Guid(b81de83eb43ac5e4aa17b9cda21f2678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Furniture/Drawer01.FBX using Guid(b81de83eb43ac5e4aa17b9cda21f2678) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd37cd3fd30b64497aeb5bdb79c1b0c43') in 0.017835687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Bottles/Flask01.FBX
+  artifactKey: Guid(a2735b1dfac180142a6846095da0a63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Bottles/Flask01.FBX using Guid(a2735b1dfac180142a6846095da0a63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0479f801bb0bce685bafb5f196cfb481') in 0.013981719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.532638 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Dishes/ClutterTanker01.FBX
+  artifactKey: Guid(1c6dc76b65f2ec64aa5c41256f4e15ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Dishes/ClutterTanker01.FBX using Guid(1c6dc76b65f2ec64aa5c41256f4e15ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '618a5ebe16d4f8bf59071683e258a62f') in 0.011477848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030864 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Dishes/ClutterPichet03.FBX
+  artifactKey: Guid(38c602a6dd68c7645810280a021094d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Dishes/ClutterPichet03.FBX using Guid(38c602a6dd68c7645810280a021094d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af7c92600f1e70d42756ea3a8392a8f7') in 0.011539645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.552372 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Dishes/ClutterPichet01.FBX
+  artifactKey: Guid(2ddc43b526f2ba84598e008d973c8871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Dishes/ClutterPichet01.FBX using Guid(2ddc43b526f2ba84598e008d973c8871) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd94090a8b2658e0229cf6c82a4d7d54') in 0.007081925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.364445 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Dishes/ClutterGlass01.FBX
+  artifactKey: Guid(124edaf700ffe88488451f7c6cb3b78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Dishes/ClutterGlass01.FBX using Guid(124edaf700ffe88488451f7c6cb3b78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bbebbbf77a79ea228e53710a8560794') in 0.007456061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032469 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Dishes/ClutterBowl02.FBX
+  artifactKey: Guid(cf1e5b7515de4344ba69328c07066cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Dishes/ClutterBowl02.FBX using Guid(cf1e5b7515de4344ba69328c07066cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e078aff6fad2d89ab18eb90af36c7eb') in 0.006342434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060869 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Lights/Candle01b.FBX
+  artifactKey: Guid(d91fe6cadda65844790f00b8b6c71fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Lights/Candle01b.FBX using Guid(d91fe6cadda65844790f00b8b6c71fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '827ee738a3c2a501de8eed5759c68f6e') in 0.009420087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059698 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Lights/Candle01a.FBX
+  artifactKey: Guid(af67691b675f49b42afff7084e88cef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Lights/Candle01a.FBX using Guid(af67691b675f49b42afff7084e88cef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31d35d5c2268f7d3b5fa2da70c1ff9bf') in 0.007023867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.531352 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Organic/Brain.FBX
+  artifactKey: Guid(cc525dbc35d97664ebf253155d25f421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Organic/Brain.FBX using Guid(cc525dbc35d97664ebf253155d25f421) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2785cdc233c1f41b07eefd593d8fda28') in 0.014228813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.523943 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Furniture/Board.FBX
+  artifactKey: Guid(51ec20c97ee0e0549991b21cf5cbdce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Furniture/Board.FBX using Guid(51ec20c97ee0e0549991b21cf5cbdce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92fe6c5a3cb5a97df83caa18edff9be1') in 0.008297089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.106904 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Books/Book02.FBX
+  artifactKey: Guid(60694673404b80d45920d4cb862f845a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Books/Book02.FBX using Guid(60694673404b80d45920d4cb862f845a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c4e0e09641eb7b1de042c4ad026a44f') in 0.012970451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026634 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Bottles/Bottle04b.FBX
+  artifactKey: Guid(63549bf603a76da4ebeecdcf94411563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Bottles/Bottle04b.FBX using Guid(63549bf603a76da4ebeecdcf94411563) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4deff2c55c0e8565267bd6868fada3ec') in 0.023304144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017051 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Bottles/Bottle03b.FBX
+  artifactKey: Guid(839cec4036df11b4b86742dbae0c0f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Bottles/Bottle03b.FBX using Guid(839cec4036df11b4b86742dbae0c0f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8624b05594e2c968db69a06493f2f453') in 0.017155724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.393621 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Bottles/Bottle02b.FBX
+  artifactKey: Guid(0f271570e2a24474e9e6f30c87384589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Bottles/Bottle02b.FBX using Guid(0f271570e2a24474e9e6f30c87384589) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98050429d4c1bd7816124a1bdfe5f318') in 0.012068769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014287 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Books/Book04.FBX
+  artifactKey: Guid(06d89cf8c260a20498ffb6acaefc9212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Books/Book04.FBX using Guid(06d89cf8c260a20498ffb6acaefc9212) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c55c67b4c65b25c56fe77d5a9901e426') in 0.008948161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Bottles/Bottle01b.FBX
+  artifactKey: Guid(fb88af3a04de12b458143f2b08fd38f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Bottles/Bottle01b.FBX using Guid(fb88af3a04de12b458143f2b08fd38f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '168df141dc9015da9a421308dcf684d4') in 0.012672296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022354 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Books/Book01.FBX
+  artifactKey: Guid(f14a0e0825c41184aa0a0d85bfc0c6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Books/Book01.FBX using Guid(f14a0e0825c41184aa0a0d85bfc0c6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71a23a0a90921933cf3ee151942fbab0') in 0.006824337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027086 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Misc/Basket02.FBX
+  artifactKey: Guid(84f078272b2af1c44a578368037e7209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Misc/Basket02.FBX using Guid(84f078272b2af1c44a578368037e7209) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d00cd684f520f059203eb038cc2bd85') in 0.007364753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.334035 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Organic/Baby03.FBX
+  artifactKey: Guid(690b7cb2905879740a4fb2bab8d81cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Organic/Baby03.FBX using Guid(690b7cb2905879740a4fb2bab8d81cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2349c6781e05f347b04920251ecb7064') in 0.007408988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017301 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Organic/Baby01.FBX
+  artifactKey: Guid(6e7aa96c2df1d0d41b6d626cd518088b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Organic/Baby01.FBX using Guid(6e7aa96c2df1d0d41b6d626cd518088b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5743b8094e375f0df54d834879bd57a4') in 0.007577529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012216 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Weapons/Arrow01.FBX
+  artifactKey: Guid(b26b9e56f87a3304cab9a05a71719cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Weapons/Arrow01.FBX using Guid(b26b9e56f87a3304cab9a05a71719cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00ba2546c97ba6a4d94d148bb4873f68') in 0.006268407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.672266 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Lab/Alembic01.FBX
+  artifactKey: Guid(419bdf70212a65040a1d9a528e537231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Lab/Alembic01.FBX using Guid(419bdf70212a65040a1d9a528e537231) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'adb5731f8945b01cffb03d41789549b3') in 0.012925645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Lab/Alembic02.FBX
+  artifactKey: Guid(6a7a03246af1eec45a4a6226bd0ffa6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Lab/Alembic02.FBX using Guid(6a7a03246af1eec45a4a6226bd0ffa6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd66afa3b2a4efba04da31e7a34c84d5f') in 0.007375846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.086250 seconds.
+  path: Assets/BK_AlchemistHouse/Scenes/Scene_Profiles
+  artifactKey: Guid(708e28bf30258d44a9cf20a3d38c41fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Scenes/Scene_Profiles using Guid(708e28bf30258d44a9cf20a3d38c41fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f83d2c0de2e71b2fbd7fc17a5d88d066') in 0.000276151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.096493 seconds.
+  path: Assets/BK_AlchemistHouse/Scenes/Scene_Profiles/Post-process Volume Profile.asset
+  artifactKey: Guid(4c5d28bbeb88a5d4d90feb4c0c192c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Scenes/Scene_Profiles/Post-process Volume Profile.asset using Guid(4c5d28bbeb88a5d4d90feb4c0c192c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fba1cf05243ce745f42c7afec494f347') in 0.000622633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
