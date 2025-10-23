@@ -7,25 +7,25 @@ Distro version:          #79~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 15 16:54
 Kernel version:          6.8.0-79-generic
 Architecture:            x86_64
 Available memory:        31805 MB
-Date:                    2025-10-22T06:16:27Z
+Date:                    2025-10-23T06:54:51Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne" at "2025-10-22T06:16:27.119989Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne" at "2025-10-23T06:54:51.820383Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.17.2'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-alumne"
 [Licensing::IpcConnector] LicenseClient-alumne channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne-6000.2.4" at "2025-10-22T06:16:27.12092Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne-6000.2.4" at "2025-10-23T06:54:51.821143Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.2+ff71f16
-  Session Id:              da785137cbea4892b423571a48ca30b0
-  Correlation Id:          fe677f2bf8a2e80cd75df2bc784c88a1
-  External correlation Id: 1192227587176694646
+  Session Id:              64903039bdd644dab29023e80944aaea
+  Correlation Id:          cc640178673c9860c488164e7a172e94
+  External correlation Id: 5671934771261293875
   Machine Id:              PBfslzCGj3XDXh96AHqdGvRuB7g=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-alumne-6000.2.4" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne-6000.2.4-notifications" at "2025-10-22T06:16:27.121757Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne-6000.2.4-notifications" at "2025-10-23T06:54:51.821956Z"
 [Licensing::Module] Licensing Background thread has ended after 0.00s
 Selected window backend: (null) 
 Desktop is 1920 x 1080 @ 60 Hz
@@ -43,7 +43,7 @@ AssetImportWorker4
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-44351
+43637
 -licensingIpc
 LicenseClient-alumne
 -job-worker-count
@@ -54,9 +54,9 @@ LicenseClient-alumne
 1
 Successfully changed project path to: /home/alumne/Scape_Room
 
-(Unity:5429): Gtk-CRITICAL **: 08:16:27.352: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:5536): Gtk-CRITICAL **: 08:54:52.100: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
 
-(Unity:5429): Gtk-CRITICAL **: 08:16:27.352: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:5536): Gtk-CRITICAL **: 08:54:52.108: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
 /home/alumne/Scape_Room
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
@@ -93,14 +93,14 @@ Successfully changed project path to: /home/alumne/Scape_Room
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [125753372089088]  Target information:
+Player connection [135681786104576]  Target information:
 
-Player connection [125753372089088]  * "[IP] 192.168.96.79 [Port] 0 [Flags] 2 [Guid] 4044891931 [EditorId] 4044891931 [Version] 1048832 [Id] LinuxEditor(16,192.168.96.79) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [135681786104576]  * "[IP] 192.168.96.79 [Port] 0 [Flags] 2 [Guid] 3124043639 [EditorId] 3124043639 [Version] 1048832 [Id] LinuxEditor(16,192.168.96.79) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [125753372089088]  * "[IP] 192.168.122.1 [Port] 0 [Flags] 2 [Guid] 4044891931 [EditorId] 4044891931 [Version] 1048832 [Id] LinuxEditor(16,192.168.96.79) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [135681786104576]  * "[IP] 192.168.122.1 [Port] 0 [Flags] 2 [Guid] 3124043639 [EditorId] 3124043639 [Version] 1048832 [Id] LinuxEditor(16,192.168.96.79) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [125753372089088] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [125753372089088] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [135681786104576] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [135681786104576] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -112,7 +112,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0,70 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,74 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 6000.2.4f1 (17550c9bb584)
 [Subsystems] Discovering subsystems at path /home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/Resources/UnitySubsystems
@@ -135,49 +135,49 @@ blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffe
 der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_shader_texture
 _footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR
 _multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -406917832
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1848172728
 Initialize mono
 Mono path[0] = '/home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/Managed'
 Mono path[1] = '/home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56429
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,000803 seconds.
-- Loaded All Assemblies, in  0,247 seconds
+Registered in 0,000882 seconds.
+- Loaded All Assemblies, in  0,237 seconds
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,268 seconds
-Domain Reload Profiling: 516ms
-	BeginReloadAssembly (58ms)
+- Finished resetting the current domain, in  0,254 seconds
+Domain Reload Profiling: 491ms
+	BeginReloadAssembly (54ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (27ms)
+	RebuildCommonClasses (26ms)
 	RebuildNativeTypeToScriptingClass (6ms)
 	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (120ms)
-		LoadAssemblies (58ms)
+	LoadAllAssembliesAndSetupDomain (115ms)
+		LoadAssemblies (53ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (118ms)
-			TypeCache.Refresh (117ms)
-				TypeCache.ScanAssembly (107ms)
+		AnalyzeDomain (113ms)
+			TypeCache.Refresh (112ms)
+				TypeCache.ScanAssembly (103ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (269ms)
+	FinalizeReload (255ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (232ms)
+		SetupLoadedEditorAssemblies (221ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (40ms)
+			InitializePlatformSupportModulesInManaged (38ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (92ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (86ms)
 			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -193,7 +193,7 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0,470 seconds
+- Loaded All Assemblies, in  0,474 seconds
 Refreshing native plugins compatible for Editor in 0,18 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
@@ -202,35 +202,35 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,517 seconds
-Domain Reload Profiling: 986ms
-	BeginReloadAssembly (99ms)
+- Finished resetting the current domain, in  0,527 seconds
+Domain Reload Profiling: 1000ms
+	BeginReloadAssembly (96ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (27ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (26ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (308ms)
-		LoadAssemblies (177ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (317ms)
+		LoadAssemblies (178ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (168ms)
-			TypeCache.Refresh (127ms)
-				TypeCache.ScanAssembly (117ms)
-			BuildScriptInfoCaches (31ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (517ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (120ms)
+			BuildScriptInfoCaches (35ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (527ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (378ms)
+		SetupLoadedEditorAssemblies (394ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (85ms)
-			ProcessInitializeOnLoadAttributes (251ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -239,205 +239,911 @@ AutoLocale: current locale expects 'C' but got 'ca_ES.UTF-8'Launched and connect
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6115 unused Assets / (5.7 MB). Loaded Objects now: 6812.
-Memory consumption went from 128.6 MB to 122.9 MB.
-Total: 8.142155 ms (FindLiveObjects: 0.434837 ms CreateObjectMapping: 0.532109 ms MarkObjects: 4.314704 ms  DeleteObjects: 2.859758 ms)
+Unloading 6116 unused Assets / (5.4 MB). Loaded Objects now: 6815.
+Memory consumption went from 126.7 MB to 121.3 MB.
+Total: 9.318936 ms (FindLiveObjects: 0.794399 ms CreateObjectMapping: 0.572518 ms MarkObjects: 4.847838 ms  DeleteObjects: 3.102947 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 845.486806 seconds.
-  path: Assets/BK_AlchemistHouse/Textures/Surfaces/WoodRough07b.png
-  artifactKey: Guid(c37253bc7aaee8143ad81d39ed131631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Textures/Surfaces/WoodRough07b.png using Guid(c37253bc7aaee8143ad81d39ed131631) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26b519a4340cc67268e6d769ac18fb21') in 0.055734477 seconds
+  Time since last request: 3162.244506 seconds.
+  path: Assets/BK_AlchemistHouse/Scenes/Scene/Lightmap-5_comp_dir.png
+  artifactKey: Guid(eebe43a74b713ff40b30c483c4950b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Scenes/Scene/Lightmap-5_comp_dir.png using Guid(eebe43a74b713ff40b30c483c4950b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7be8df7a41ffee8d20aa6fd6bac9be05') in 0.053370319 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.118936 seconds.
-  path: Assets/BK_AlchemistHouse/Textures/Items/Books/Materials/Book10b.mat
-  artifactKey: Guid(e60e43e69a463f540a4a951c807bec1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Textures/Items/Books/Materials/Book10b.mat using Guid(e60e43e69a463f540a4a951c807bec1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2966d02c4d64e21c3eb900462d993b3e') in 0.32963613 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/BK_AlchemistHouse/Textures/Items/BottlesStickers/Materials/BottleSticker06.mat
-  artifactKey: Guid(1cd28856faf605347a241b8ae75f5421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Textures/Items/BottlesStickers/Materials/BottleSticker06.mat using Guid(1cd28856faf605347a241b8ae75f5421) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89b8e98e48b500f2f77cddb2a95b1dc8') in 0.027792631 seconds
+  Time since last request: 0.000009 seconds.
+  path: Assets/BK_AlchemistHouse/Scenes/Scene/Lightmap-3_comp_light.exr
+  artifactKey: Guid(17c70f24b6a09f246a0a853f8fd599e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Scenes/Scene/Lightmap-3_comp_light.exr using Guid(17c70f24b6a09f246a0a853f8fd599e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04f31fe889330b2a3aa1614c7d83ad43') in 0.042392122 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/BK_AlchemistHouse/Textures/Furniture/Materials/Drawer03.mat
-  artifactKey: Guid(0f16cac64e42eb8438204641f7ddeb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Textures/Furniture/Materials/Drawer03.mat using Guid(0f16cac64e42eb8438204641f7ddeb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9151b7ce72729798102b39236412d2d') in 0.028602545 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/Concrete01.mat
-  artifactKey: Guid(85a4b8835cd432945be5aa832855f434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/Concrete01.mat using Guid(85a4b8835cd432945be5aa832855f434) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eeb48d1a074efca5f9e61dcab704ae3c') in 0.010704827 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/BK_AlchemistHouse/Textures/Items/BottlesStickers/Materials/BottleSticker04.mat
-  artifactKey: Guid(14171a1a4455e6844b2832300a256f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Textures/Items/BottlesStickers/Materials/BottleSticker04.mat using Guid(14171a1a4455e6844b2832300a256f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91f549a1203fbd0263237c88b72e9cf5') in 0.005427492 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/BK_AlchemistHouse/Textures/Items/BottlesStickers/Materials/BottleSticker02.mat
-  artifactKey: Guid(20cd10f500d402e4f8af68ad7ebda84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Textures/Items/BottlesStickers/Materials/BottleSticker02.mat using Guid(20cd10f500d402e4f8af68ad7ebda84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b84c09f4e1721066c4901ea62bd9e554') in 0.006768016 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/BK_AlchemistHouse/Textures/Items/Organic/Materials/DragonSkull.mat
-  artifactKey: Guid(9ff2e80dbd4dec4409cfa878ef98a4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Textures/Items/Organic/Materials/DragonSkull.mat using Guid(9ff2e80dbd4dec4409cfa878ef98a4ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbeecd7c29533c342ab4ab5a1ff9a342') in 0.013605065 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BK_AlchemistHouse/Textures/Items/Lab/Materials/Caldron.mat
-  artifactKey: Guid(b1f7700fc9604d747bc04b2d11b9dd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Textures/Items/Lab/Materials/Caldron.mat using Guid(b1f7700fc9604d747bc04b2d11b9dd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad8b3da61bebbb42969a2f3dbb889d6e') in 0.022698208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/BK_AlchemistHouse/Textures/Particles/Materials/Bubbles.mat
-  artifactKey: Guid(6a33eb299f9b09042a9194f50aab116b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Textures/Particles/Materials/Bubbles.mat using Guid(6a33eb299f9b09042a9194f50aab116b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '049ab00feaf2aab799f38e42fd96dc8e') in 0.048393698 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.275042 seconds.
-  path: Assets/Mateiales
-  artifactKey: Guid(9119360dd5ea8bf4fab3e89ae6b7f133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mateiales using Guid(9119360dd5ea8bf4fab3e89ae6b7f133) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88734028c68a4494e5c375381537dd50') in 0.000358664 seconds
+  Time since last request: 9.517490 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Lab
+  artifactKey: Guid(b51ecdd8b3029144bb44cc87a6fd09a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Lab using Guid(b51ecdd8b3029144bb44cc87a6fd09a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e62219d023dbb2e127baf203aab9071') in 0.00028932 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.433207 seconds.
-  path: Assets/Mateiales/Floor.mat
-  artifactKey: Guid(964ac0d722ca472d180512cae1e4f318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mateiales/Floor.mat using Guid(964ac0d722ca472d180512cae1e4f318) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c1a34ddeb943a3ce8d9382dc228700e') in 0.008668099 seconds
+  Time since last request: 0.090173 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Lab/Caldron.png
+  artifactKey: Guid(75a20fcb840321342884996b145e2d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Lab/Caldron.png using Guid(75a20fcb840321342884996b145e2d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '563651465611345e55519d34ce984eb2') in 0.015940306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Lab/Caldron2_n.png
+  artifactKey: Guid(8514a4f3dddbde9498de7243c310e5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Lab/Caldron2_n.png using Guid(8514a4f3dddbde9498de7243c310e5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18511cfad4d999b4d1d4febe5fa5447c') in 0.020433655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.962888 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Furniture/Materials/GlassDust.mat
+  artifactKey: Guid(086fd6970ab4cc4a082a69b8de61d86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Furniture/Materials/GlassDust.mat using Guid(086fd6970ab4cc4a082a69b8de61d86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80868e32a8905151c2a271e85bbd3016') in 0.293717241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.862016 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/BottlesStickers/BottleSticker01.png
+  artifactKey: Guid(aa7c50ab78d03c34b97312e6c78340ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/BottlesStickers/BottleSticker01.png using Guid(aa7c50ab78d03c34b97312e6c78340ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc1b203932a8b79d8b72a8ac02ab691e') in 0.003913597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/BottlesStickers/BottleSticker004.png
+  artifactKey: Guid(eb854ff79fa71734981d94b4de665422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/BottlesStickers/BottleSticker004.png using Guid(eb854ff79fa71734981d94b4de665422) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ef21cfa56cfc2d6b9a44ae2b4652c0e') in 0.003657453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.214919 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Flasks/Flask01.png
+  artifactKey: Guid(c9f331b0c2ae7434ebce442da43996f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Flasks/Flask01.png using Guid(c9f331b0c2ae7434ebce442da43996f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5950387a2ed7d9b68d128689c1c0319d') in 0.005625732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Flasks/Flask02_n.png
+  artifactKey: Guid(13bf3618ff7027b48b9fb8ed7652faa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Flasks/Flask02_n.png using Guid(13bf3618ff7027b48b9fb8ed7652faa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1e4ac43f83b2967b6362b0221374112') in 0.004544489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.657894 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Ingredient01.png
+  artifactKey: Guid(535dfd58583503e4abdbf0ca1c0298d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Ingredient01.png using Guid(535dfd58583503e4abdbf0ca1c0298d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a662a79e33f4aa235978dddcef3119cd') in 0.007737897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Ingredient05_h.png
+  artifactKey: Guid(78fb2b80b99a00a4794e2aa0de72f876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Ingredient05_h.png using Guid(78fb2b80b99a00a4794e2aa0de72f876) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17d120ed3435ae0ce334357324609d35') in 0.012587586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Ingredient04b_n.png
+  artifactKey: Guid(4126476a577a3724daff2689eaa083a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Ingredient04b_n.png using Guid(4126476a577a3724daff2689eaa083a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1a87e6d10016f151595e3d5ebf6e88e') in 0.01575742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Ingredient06_n.png
+  artifactKey: Guid(2b0bc6c82b304a844925f845923b40af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Ingredient06_n.png using Guid(2b0bc6c82b304a844925f845923b40af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a620143f7a43fa6783df4d6af7eace97') in 0.005813521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Ingredient04_n.png
+  artifactKey: Guid(ea0821a97d7a84347a41659234f5f5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Ingredient04_n.png using Guid(ea0821a97d7a84347a41659234f5f5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '255f37bec1b07c1397eb4d25fef27969') in 0.015098576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Ingredient04b_m.png
+  artifactKey: Guid(cfa7ca1f5dbd61948a9626c271150fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Ingredient04b_m.png using Guid(cfa7ca1f5dbd61948a9626c271150fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd9cbfa0239e9d54d1572293279a96a1') in 0.008621731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.245053 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Jar/Jar.png
+  artifactKey: Guid(d8b5858c3035130449dbc8ab616ce02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Jar/Jar.png using Guid(d8b5858c3035130449dbc8ab616ce02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f803307ed0822578c2fa50eccf319a8d') in 0.017765099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.555561 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Lights/Candle01.png
+  artifactKey: Guid(a7720d594a94ad340a8d0350f3e31487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Lights/Candle01.png using Guid(a7720d594a94ad340a8d0350f3e31487) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a2b44f67b2a9b47110642f0fccc5492') in 0.008044079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Lights/OilLamp_i.png
+  artifactKey: Guid(12e95d0b4001ce743aa1b8c7be41cacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Lights/OilLamp_i.png using Guid(12e95d0b4001ce743aa1b8c7be41cacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b095e2a24cd8e97821d5d1bcfd70e48') in 0.011128432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Lights/Oillamp01_o.png
+  artifactKey: Guid(6f28956a252f57b4a911989bb0187f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Lights/Oillamp01_o.png using Guid(6f28956a252f57b4a911989bb0187f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b61bec2d0d0f07ce96c5302a87419249') in 0.006608939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.688098 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Misc/Log01.png
+  artifactKey: Guid(f0d1df6a4a117db40b051608c398a115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Misc/Log01.png using Guid(f0d1df6a4a117db40b051608c398a115) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1c1d11975f2ca56bc9bf7adead90fc1') in 0.009361349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Misc/Log03.png
+  artifactKey: Guid(87571540d2474c6489562aa591362625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Misc/Log03.png using Guid(87571540d2474c6489562aa591362625) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4fc826a2916ee2dca22a81b6f6d7ac8') in 0.006829718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Misc/painting01.png
+  artifactKey: Guid(a93926e6d07296a419bddcbfff768ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Misc/painting01.png using Guid(a93926e6d07296a419bddcbfff768ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05e7dfe0dcf33406404706c78ec55425') in 0.005281248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Misc/painting01_n.png
+  artifactKey: Guid(264384fc9336eda459ed64f7d78985c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Misc/painting01_n.png using Guid(264384fc9336eda459ed64f7d78985c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9893ef4456365a6bcf450d9468047e11') in 0.00436788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.006661 seconds.
+  path: Assets/Mateiales/Pared_sotano.mat
+  artifactKey: Guid(f43dfbcf039fadc5c94a159bb2604a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mateiales/Pared_sotano.mat using Guid(f43dfbcf039fadc5c94a159bb2604a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ff65c9176c476eb606b288a9cc58dd6') in 0.007043385 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.049683 seconds.
-  path: Assets/BK_AlchemistHouse/Textures/Furniture/Alambic01_o.png
-  artifactKey: Guid(192e5e729cc3d9243bb0bad0388f54a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Textures/Furniture/Alambic01_o.png using Guid(192e5e729cc3d9243bb0bad0388f54a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e37e2fe8f95d181dc0b7c9425448daaa') in 0.004516314 seconds
+  Time since last request: 141.807037 seconds.
+  path: Assets/Mateiales/Pared_sotano.mat
+  artifactKey: Guid(f43dfbcf039fadc5c94a159bb2604a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mateiales/Pared_sotano.mat using Guid(f43dfbcf039fadc5c94a159bb2604a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39d698e9289684f518535cc17474487e') in 0.006620359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.449 seconds
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.439 seconds
+Domain Reload Profiling: 890ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (260ms)
+		LoadAssemblies (178ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (102ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (439ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (328ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (218ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6113 unused Assets / (4.7 MB). Loaded Objects now: 6903.
+Memory consumption went from 137.9 MB to 133.2 MB.
+Total: 6.510605 ms (FindLiveObjects: 0.438263 ms CreateObjectMapping: 0.442684 ms MarkObjects: 4.014972 ms  DeleteObjects: 1.613972 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.450 seconds
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+UpdateMenuTitleForLanguage: 10
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Scape Room
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.508 seconds
+Domain Reload Profiling: 959ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (280ms)
+		LoadAssemblies (182ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (6ms)
+			BuildScriptInfoCaches (108ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (508ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (393ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6501 unused Assets / (6.0 MB). Loaded Objects now: 7277.
+Memory consumption went from 146.4 MB to 140.4 MB.
+Total: 7.552377 ms (FindLiveObjects: 0.459825 ms CreateObjectMapping: 0.459089 ms MarkObjects: 4.234979 ms  DeleteObjects: 2.397702 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (2.8 MB). Loaded Objects now: 7277.
+Memory consumption went from 142.8 MB to 140.0 MB.
+Total: 5.523471 ms (FindLiveObjects: 0.257152 ms CreateObjectMapping: 0.191042 ms MarkObjects: 4.348112 ms  DeleteObjects: 0.726286 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.428 seconds
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.478 seconds
+Domain Reload Profiling: 908ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (267ms)
+		LoadAssemblies (176ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (107ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (478ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (371ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (223ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6501 unused Assets / (6.1 MB). Loaded Objects now: 7280.
+Memory consumption went from 147.3 MB to 141.2 MB.
+Total: 7.899548 ms (FindLiveObjects: 0.465021 ms CreateObjectMapping: 0.469603 ms MarkObjects: 4.482046 ms  DeleteObjects: 2.481491 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.431 seconds
+Refreshing native plugins compatible for Editor in 0.18 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.482 seconds
+Domain Reload Profiling: 915ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (270ms)
+		LoadAssemblies (175ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (125ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (110ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (482ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (376ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (224ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6501 unused Assets / (6.4 MB). Loaded Objects now: 7283.
+Memory consumption went from 147.3 MB to 140.9 MB.
+Total: 7.805360 ms (FindLiveObjects: 0.466671 ms CreateObjectMapping: 0.464476 ms MarkObjects: 4.463886 ms  DeleteObjects: 2.408798 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2709.752694 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/WoodRough7.mat
+  artifactKey: Guid(fb93eb9c09e7d4451bf4405a9393bdc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/WoodRough7.mat using Guid(fb93eb9c09e7d4451bf4405a9393bdc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0302a889e14071c8b6b0a66efd4b4325') in 0.312902773 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/BK_AlchemistHouse/Textures/Furniture/Door.png
-  artifactKey: Guid(715d41930328bf745a3683094a7f6ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Textures/Furniture/Door.png using Guid(715d41930328bf745a3683094a7f6ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ee18a10f91a260c5c3068f8550744c5') in 0.004707667 seconds
+  Time since last request: 6.970300 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/WindowGlass2.mat
+  artifactKey: Guid(4295e8a20ebf9f7be88bc6f584af5115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/WindowGlass2.mat using Guid(4295e8a20ebf9f7be88bc6f584af5115) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '435491754205ef6d884545fcf34581f2') in 0.007590499 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/BK_AlchemistHouse/Textures/Furniture/GlassDust02.png
-  artifactKey: Guid(f7a72dfacee085f4d9092422499131f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Textures/Furniture/GlassDust02.png using Guid(f7a72dfacee085f4d9092422499131f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '71a47d1b5ca08fedb01e7ef4e57191b6') in 0.003410964 seconds
+  Time since last request: 6.056829 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/TileFloor01_m.mat
+  artifactKey: Guid(56485756d025d0b44bb7b416970fea70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/TileFloor01_m.mat using Guid(56485756d025d0b44bb7b416970fea70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b05a16f401e2cfa04114ee46730332be') in 0.010290748 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/BK_AlchemistHouse/Textures/Furniture/Carpet01_m.png
-  artifactKey: Guid(6cc2a120e0cc9114cb34bd55f576f6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Textures/Furniture/Carpet01_m.png using Guid(6cc2a120e0cc9114cb34bd55f576f6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b54729f30bdfe581d2723821ee93ca8') in 0.003923004 seconds
+  Time since last request: 3.360604 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/StoneFloor2.mat
+  artifactKey: Guid(1ea2d5871b6ec0149ab4af23b2d0b749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/StoneFloor2.mat using Guid(1ea2d5871b6ec0149ab4af23b2d0b749) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df4ce189ca3612c14f9320cfb13970c0') in 0.006492412 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BK_AlchemistHouse/Textures/Furniture/Glass_m.png
-  artifactKey: Guid(683dc190c30c3b8438757f486285fb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Textures/Furniture/Glass_m.png using Guid(683dc190c30c3b8438757f486285fb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50c132155f563bb8d371c913905dfcc6') in 0.009696503 seconds
+  Time since last request: 0.036996 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/StoneFloor1.mat
+  artifactKey: Guid(93b555c0db92b10a9bbe400b976a11ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/StoneFloor1.mat using Guid(93b555c0db92b10a9bbe400b976a11ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43e9d5c8efa581bcd887be6f24b65eff') in 0.005732612 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/BK_AlchemistHouse/Textures/Furniture/Drawer01b.png
-  artifactKey: Guid(ae4660205f58272498961a51bd2777dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Textures/Furniture/Drawer01b.png using Guid(ae4660205f58272498961a51bd2777dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8dd24e78271e36bc6b877ecd6d21087e') in 0.006065925 seconds
+  Time since last request: 4.847407 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/PlasterBare6.mat
+  artifactKey: Guid(45d763869fa7a3f4fb8150d78c130dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/PlasterBare6.mat using Guid(45d763869fa7a3f4fb8150d78c130dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '993d701d89aba1abfdb4d2d9a30e94e6') in 0.006321051 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/BK_AlchemistHouse/Textures/Furniture/Clutter01_n.png
-  artifactKey: Guid(3d6261c4c905f6c4aad787231b01480d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Textures/Furniture/Clutter01_n.png using Guid(3d6261c4c905f6c4aad787231b01480d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f659c4612cac91185acc398911a58a2f') in 0.009017174 seconds
+  Time since last request: 0.265057 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/PlasterBare4.mat
+  artifactKey: Guid(052edab37f492d4fbb131a38329cfd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/PlasterBare4.mat using Guid(052edab37f492d4fbb131a38329cfd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef43b60c4450da6b0eb0a8a5c12ac3ff') in 0.005992486 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/BK_AlchemistHouse/Textures/Furniture/Alembic02_n.png
-  artifactKey: Guid(073dd4376ae550442a3c384502f118a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Textures/Furniture/Alembic02_n.png using Guid(073dd4376ae550442a3c384502f118a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f63ec773b09b3c444244f4975fff452') in 0.010111699 seconds
+  Time since last request: 0.037582 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/PlasterBare02b_m.mat
+  artifactKey: Guid(18f7149580d2ae55fafae1b823ff0cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/PlasterBare02b_m.mat using Guid(18f7149580d2ae55fafae1b823ff0cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f10e0a5db881bb07df7647e947e81dd') in 0.007392913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.203508 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/PlasterBare2.mat
+  artifactKey: Guid(a9d1904829c4c4d16b3514d6deb17a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/PlasterBare2.mat using Guid(a9d1904829c4c4d16b3514d6deb17a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf410a5839cb4dc2ae90c5394a035275') in 0.005670832 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017852 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Misc/Materials/paintings4.mat
+  artifactKey: Guid(f73d322960055a441afcbcdf03a8c26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Misc/Materials/paintings4.mat using Guid(f73d322960055a441afcbcdf03a8c26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73a54e572623b3c32e513b50bb648091') in 0.016190946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/BK_AlchemistHouse/Textures/Furniture/Bottles01_m.png
-  artifactKey: Guid(35e8f9c95862c074c8c34d17c54c96df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Textures/Furniture/Bottles01_m.png using Guid(35e8f9c95862c074c8c34d17c54c96df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65c1b945122b22b9035432d4b77a44b0') in 0.005189464 seconds
+  path: Assets/BK_AlchemistHouse/Textures/Items/Misc/Materials/paintings3.mat
+  artifactKey: Guid(368a37e4cade01b4eac242994264d9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Misc/Materials/paintings3.mat using Guid(368a37e4cade01b4eac242994264d9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e3f2b8105ed97d9d6d2d698c341cbe3') in 0.009834983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Misc/Materials/painting01.mat
+  artifactKey: Guid(3d90d693afcdc2048816aed13167a1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Misc/Materials/painting01.mat using Guid(3d90d693afcdc2048816aed13167a1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0b3f092a7782ce7b3bf4814793c70bb') in 0.006277716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.773146 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Lights/Materials/Oillamp01.mat
+  artifactKey: Guid(9dee3ac10b470864986e26639f171eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Lights/Materials/Oillamp01.mat using Guid(9dee3ac10b470864986e26639f171eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a98d5c7bd7b3fb8365af28463bd5ebbf') in 0.006603927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035001 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Misc/Materials/Liquid_bubbles.mat
+  artifactKey: Guid(9da15c88d8666884193a4163a0df8bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Misc/Materials/Liquid_bubbles.mat using Guid(9da15c88d8666884193a4163a0df8bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '084be97a62f5bd3d613dddbdb28a43c3') in 0.007069863 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BK_AlchemistHouse/Textures/Furniture/Clutter01_o.png
-  artifactKey: Guid(bb035b5baee58614fb04a5b56e00734e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Textures/Furniture/Clutter01_o.png using Guid(bb035b5baee58614fb04a5b56e00734e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1d223deff900d87e6073927429891b4') in 0.003946595 seconds
+  Time since last request: 0.000020 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Misc/Materials/Log03.mat
+  artifactKey: Guid(594a4c4f45e26394c8ecd72360494944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Misc/Materials/Log03.mat using Guid(594a4c4f45e26394c8ecd72360494944) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef3c9456253b07eb7f9c67274ae4904e') in 0.015715269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033552 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Materials/Ingredient06.mat
+  artifactKey: Guid(8ed80c93fdcd2ea4bb4e4dc70f3673ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Materials/Ingredient06.mat using Guid(8ed80c93fdcd2ea4bb4e4dc70f3673ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e2a5715572c7b214b646057bf49d08d') in 0.0078509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024191 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Misc/Materials/Liquid01.mat
+  artifactKey: Guid(5117d9ae7adc2974b8d3ad819f6d19f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Misc/Materials/Liquid01.mat using Guid(5117d9ae7adc2974b8d3ad819f6d19f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87197f65ea5ee1b4611f70460c2a9de1') in 0.00575963 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/BK_AlchemistHouse/Textures/Furniture/Arrow_n.png
-  artifactKey: Guid(76a17dcbf6484754fa621b811da198c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Textures/Furniture/Arrow_n.png using Guid(76a17dcbf6484754fa621b811da198c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5fcab1f9cdd669ce8ffffaff408aa7a') in 0.008233883 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.602740 seconds.
-  path: Assets/BK_AlchemistHouse/Textures/Misc/Dot.png
-  artifactKey: Guid(7399222726c320548be8a9ebc614196d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Textures/Misc/Dot.png using Guid(7399222726c320548be8a9ebc614196d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cee34d5443b6188dcdf8b799e78eb90') in 0.01035416 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Jar/Materials/Jar02.mat
+  artifactKey: Guid(71b9adff55df1224f8d1f7907dbdcb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Jar/Materials/Jar02.mat using Guid(71b9adff55df1224f8d1f7907dbdcb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44e0b4dbbf61e75e7b825b514657a658') in 0.01509065 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Jar/Materials/Jar01.mat
+  artifactKey: Guid(f1148dbb5e5b717459fcc12abeeab788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Jar/Materials/Jar01.mat using Guid(f1148dbb5e5b717459fcc12abeeab788) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Shader properties can't be added to this global property sheet. Trying to add RefractionGrab1_ST (type 2 count 1)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.Rendering.ScriptableRenderContext:Submit () (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/ScriptableRenderContext.cs:146)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:891)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:691)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:666)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:483)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipeline.cs:58)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:159)
+UnityEngine.Camera:Render ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:554)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2748)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2610)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /home/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:36)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:12)
 
-SDL leaked 2 allocations
-Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).
+[/home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 35]
+
+Shader properties can't be added to this global property sheet. Trying to add RefractionGrab1_TexelSize (type 2 count 1)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.Rendering.ScriptableRenderContext:Submit () (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/ScriptableRenderContext.cs:146)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:891)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:691)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:666)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:483)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipeline.cs:58)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:159)
+UnityEngine.Camera:Render ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:554)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2748)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2610)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /home/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:36)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:12)
+
+[/home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 35]
+
+Shader properties can't be added to this global property sheet. Trying to add RefractionGrab1_HDR (type 2 count 1)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.Rendering.ScriptableRenderContext:Submit () (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/ScriptableRenderContext.cs:146)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:891)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:691)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:666)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:483)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipeline.cs:58)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:159)
+UnityEngine.Camera:Render ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:554)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2748)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2610)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /home/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:36)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:12)
+
+[/home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 35]
+
+Shader properties can't be added to this global property sheet. Trying to add RefractionGrab1 (type 4 count 1)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.Rendering.ScriptableRenderContext:Submit () (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/ScriptableRenderContext.cs:146)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:891)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:691)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:666)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:483)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipeline.cs:58)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:159)
+UnityEngine.Camera:Render ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:554)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2748)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/MaterialEditor.cs:2610)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /home/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:36)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:12)
+
+[/home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 35]
+
+ -> (artifact id: '8290d226399ffa9cf3fec3bc668e9c00') in 0.010836114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Misc/Materials/Log01.mat
+  artifactKey: Guid(c162d4e19da904c4c882651802a6817e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Misc/Materials/Log01.mat using Guid(c162d4e19da904c4c882651802a6817e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4562536e3a658eb70699cb54a11d1f73') in 0.009634493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.967465 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Books/Materials/Book01.mat
+  artifactKey: Guid(1abc2f8a1e5d18348ae601b4cf25140a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Books/Materials/Book01.mat using Guid(1abc2f8a1e5d18348ae601b4cf25140a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1ac1dd886740a8b58b4fbcb940a684d') in 0.006799211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.269323 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Books/Materials/Book03.mat
+  artifactKey: Guid(4eca5faaab0f96d4289ee469072513cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Books/Materials/Book03.mat using Guid(4eca5faaab0f96d4289ee469072513cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0943ea1f55566262e93fc7087ab43835') in 0.008186253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023545 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Books/Materials/Book05.mat
+  artifactKey: Guid(7315c15f0332f6b48889c537699a69a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Books/Materials/Book05.mat using Guid(7315c15f0332f6b48889c537699a69a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5844c1b188c351995c64606b92259fc') in 0.007823624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029162 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Books/Materials/Book06b.mat
+  artifactKey: Guid(506738a925a8a5a4fb245fbb36c34cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Books/Materials/Book06b.mat using Guid(506738a925a8a5a4fb245fbb36c34cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a9a3dd3d28c7b8c3f755264768d0690') in 0.035292539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.511579 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Books/Materials/Book06d.mat
+  artifactKey: Guid(0073f8c4fd8165b4989c6d65304c2294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Books/Materials/Book06d.mat using Guid(0073f8c4fd8165b4989c6d65304c2294) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53d6f7b516500cb7d17c493d0bf620da') in 0.006032593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067855 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Books/Materials/Book08.mat
+  artifactKey: Guid(5204538a0de74f04ba27ebe09f48edcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Books/Materials/Book08.mat using Guid(5204538a0de74f04ba27ebe09f48edcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e07e69ca27df4ed9743b069970516fe') in 0.007035848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.014541 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Books/Materials/Book09b.mat
+  artifactKey: Guid(984a0f0e3fb77f046ba8ca7361b57781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Books/Materials/Book09b.mat using Guid(984a0f0e3fb77f046ba8ca7361b57781) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '054086eb5ae60f365cb9f24b1df8edbe') in 0.006892168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018472 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Books/Materials/Book09d.mat
+  artifactKey: Guid(fe9f824c3b425c04789d52a4cf6e5901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Books/Materials/Book09d.mat using Guid(fe9f824c3b425c04789d52a4cf6e5901) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3192b22b711a50a3d4fbbf6163d34083') in 0.007440418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.364559 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Books/Materials/Book10.mat
+  artifactKey: Guid(7c93511165f9c7143a5c1b446f2b2285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Books/Materials/Book10.mat using Guid(7c93511165f9c7143a5c1b446f2b2285) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '559eb5f2dcca73b25caa4cbed1850871') in 0.008244508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.362833 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/Concrete3.mat
+  artifactKey: Guid(7adf3ebf8b51555b1a1bda409d07ac37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/Concrete3.mat using Guid(7adf3ebf8b51555b1a1bda409d07ac37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a9986da364e9970c9e0fa48ad83dedf') in 0.00814199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.723621 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Materials/Ingredient01.mat
+  artifactKey: Guid(aebb96c252b249e459f32b5323450b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Materials/Ingredient01.mat using Guid(aebb96c252b249e459f32b5323450b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ca577e9af923046743eb25f9765a842') in 0.008746332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045097 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Materials/Ingredient04.mat
+  artifactKey: Guid(f9d6d79c2fa56c64f85dd7df57654059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Materials/Ingredient04.mat using Guid(f9d6d79c2fa56c64f85dd7df57654059) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8d2dd84e5aca4d01d41b5ec3cc9525d') in 0.010490887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.497434 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/Marble 2.mat
+  artifactKey: Guid(e79f5482f1e6a416b8fa81c0a5bc2cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/Marble 2.mat using Guid(e79f5482f1e6a416b8fa81c0a5bc2cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d702b703fb8ebd66097eb9e25e0b2ff') in 0.005565293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.213685 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/Marble_m.mat
+  artifactKey: Guid(641e5015e4b073fd98bf760f8442ff22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/Marble_m.mat using Guid(641e5015e4b073fd98bf760f8442ff22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c07931ba32a218e4c5a096f151a4c24') in 0.008247325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2450.992988 seconds.
+  path: Assets/Mateiales/Suelo_sotano.mat
+  artifactKey: Guid(cb81002c279fe92009af5d6b5f7daca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mateiales/Suelo_sotano.mat using Guid(cb81002c279fe92009af5d6b5f7daca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc688b025aedc6d5b7f20266a4044120') in 0.006589671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.444 seconds
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.484 seconds
+Domain Reload Profiling: 931ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (267ms)
+		LoadAssemblies (174ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (108ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (485ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (377ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (229ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6502 unused Assets / (6.7 MB). Loaded Objects now: 7307.
+Memory consumption went from 147.5 MB to 140.8 MB.
+Total: 7.445291 ms (FindLiveObjects: 0.484888 ms CreateObjectMapping: 0.474072 ms MarkObjects: 4.227183 ms  DeleteObjects: 2.257713 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.431 seconds
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.492 seconds
+Domain Reload Profiling: 926ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (269ms)
+		LoadAssemblies (176ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (124ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (109ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (492ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (385ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (226ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6501 unused Assets / (7.0 MB). Loaded Objects now: 7310.
+Memory consumption went from 147.4 MB to 140.4 MB.
+Total: 8.000259 ms (FindLiveObjects: 0.474976 ms CreateObjectMapping: 0.454930 ms MarkObjects: 4.613523 ms  DeleteObjects: 2.455658 ms)
+
+Prepare: number of updated asset objects reloaded= 0
