@@ -59,6 +59,7 @@
     <None Include="Assets/BK_AlchemistHouse/Resources/Shaders/BlitAdd.shader" />
     <None Include="Assets/BK_AlchemistHouse/Resources/Shaders/Refraction.shader" />
     <None Include="Assets/BK_AlchemistHouse/Resources/Shaders/BilateralBlur.shader" />
+    <None Include="Assets/Hand Painted Seamless Wood Texture/Documentation/Documentation.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
