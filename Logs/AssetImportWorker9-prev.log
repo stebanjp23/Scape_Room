@@ -7,25 +7,25 @@ Distro version:          #79~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 15 16:54
 Kernel version:          6.8.0-79-generic
 Architecture:            x86_64
 Available memory:        31805 MB
-Date:                    2025-10-30T08:12:52Z
+Date:                    2025-11-05T07:54:43Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne" at "2025-10-30T08:12:52.625179Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne" at "2025-11-05T07:54:43.414004Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.17.2'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-alumne"
 [Licensing::IpcConnector] LicenseClient-alumne channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne-6000.2.4" at "2025-10-30T08:12:52.62608Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne-6000.2.4" at "2025-11-05T07:54:43.415114Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.2+ff71f16
-  Session Id:              d494bda88469448bb1e8b26bc369251d
-  Correlation Id:          f0bed81822a17abae916970b104b23d8
-  External correlation Id: 3872449330835150312
+  Session Id:              9898dadb9a1048ddae5dc97fe7e8cd98
+  Correlation Id:          15aa8a99e6dabda8aa4e4a95f3ec93ff
+  External correlation Id: 42893157403922206
   Machine Id:              PBfslzCGj3XDXh96AHqdGvRuB7g=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-alumne-6000.2.4" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne-6000.2.4-notifications" at "2025-10-30T08:12:52.62726Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne-6000.2.4-notifications" at "2025-11-05T07:54:43.415912Z"
 [Licensing::Module] Licensing Background thread has ended after 0.00s
 Selected window backend: (null) 
 Desktop is 1920 x 1080 @ 60 Hz
@@ -43,7 +43,7 @@ AssetImportWorker9
 -logFile
 Logs/AssetImportWorker9.log
 -srvPort
-35507
+44479
 -licensingIpc
 LicenseClient-alumne
 -job-worker-count
@@ -54,9 +54,9 @@ LicenseClient-alumne
 1
 Successfully changed project path to: /home/alumne/Scape_Room
 
-(Unity:8612): Gtk-CRITICAL **: 09:12:52.873: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:7902): Gtk-CRITICAL **: 08:54:43.645: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
 
-(Unity:8612): Gtk-CRITICAL **: 09:12:52.873: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:7902): Gtk-CRITICAL **: 08:54:43.647: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
 /home/alumne/Scape_Room
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
@@ -93,14 +93,14 @@ Successfully changed project path to: /home/alumne/Scape_Room
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [137394187369216]  Target information:
+Player connection [138882406595328]  Target information:
 
-Player connection [137394187369216]  * "[IP] 192.168.96.79 [Port] 0 [Flags] 2 [Guid] 2635442048 [EditorId] 2635442048 [Version] 1048832 [Id] LinuxEditor(16,192.168.96.79) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [138882406595328]  * "[IP] 192.168.96.79 [Port] 0 [Flags] 2 [Guid] 2209402334 [EditorId] 2209402334 [Version] 1048832 [Id] LinuxEditor(16,192.168.96.79) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [137394187369216]  * "[IP] 192.168.122.1 [Port] 0 [Flags] 2 [Guid] 2635442048 [EditorId] 2635442048 [Version] 1048832 [Id] LinuxEditor(16,192.168.96.79) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [138882406595328]  * "[IP] 192.168.122.1 [Port] 0 [Flags] 2 [Guid] 2209402334 [EditorId] 2209402334 [Version] 1048832 [Id] LinuxEditor(16,192.168.96.79) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [137394187369216] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [137394187369216] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [138882406595328] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [138882406595328] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -112,7 +112,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0,75 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0,74 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 6000.2.4f1 (17550c9bb584)
 [Subsystems] Discovering subsystems at path /home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/Resources/UnitySubsystems
@@ -135,50 +135,50 @@ blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffe
 der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_shader_texture
 _footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR
 _multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1097827640
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 151768664
 Initialize mono
 Mono path[0] = '/home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/Managed'
 Mono path[1] = '/home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56902
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,000799 seconds.
-- Loaded All Assemblies, in  0,233 seconds
+Registered in 0,000883 seconds.
+- Loaded All Assemblies, in  0,246 seconds
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,250 seconds
-Domain Reload Profiling: 483ms
-	BeginReloadAssembly (52ms)
+- Finished resetting the current domain, in  0,267 seconds
+Domain Reload Profiling: 513ms
+	BeginReloadAssembly (54ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (26ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (113ms)
-		LoadAssemblies (51ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (121ms)
+		LoadAssemblies (54ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (111ms)
-			TypeCache.Refresh (110ms)
-				TypeCache.ScanAssembly (101ms)
+		AnalyzeDomain (118ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (108ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (250ms)
+	FinalizeReload (268ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (217ms)
+		SetupLoadedEditorAssemblies (232ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
+			InitializePlatformSupportModulesInManaged (41ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (46ms)
-			ProcessInitializeOnLoadAttributes (86ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (91ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -193,7 +193,7 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0,461 seconds
+- Loaded All Assemblies, in  0,441 seconds
 Refreshing native plugins compatible for Editor in 0,18 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
@@ -206,277 +206,174 @@ UpdateMenuTitleForLanguage: 10
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Scape Room
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,524 seconds
-Domain Reload Profiling: 984ms
-	BeginReloadAssembly (88ms)
+- Finished resetting the current domain, in  0,504 seconds
+Domain Reload Profiling: 944ms
+	BeginReloadAssembly (90ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (311ms)
-		LoadAssemblies (173ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (293ms)
+		LoadAssemblies (166ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (173ms)
-			TypeCache.Refresh (130ms)
-				TypeCache.ScanAssembly (119ms)
-			BuildScriptInfoCaches (33ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (525ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (121ms)
+				TypeCache.ScanAssembly (111ms)
+			BuildScriptInfoCaches (32ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (504ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (392ms)
+		SetupLoadedEditorAssemblies (382ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (78ms)
-			ProcessInitializeOnLoadAttributes (244ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (239ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
 AutoLocale: current locale expects 'C' but got 'ca_ES.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6487 unused Assets / (6.2 MB). Loaded Objects now: 7226.
-Memory consumption went from 148.3 MB to 142.1 MB.
-Total: 9.119437 ms (FindLiveObjects: 0.447900 ms CreateObjectMapping: 0.557551 ms MarkObjects: 5.043729 ms  DeleteObjects: 3.069461 ms)
+Unloading 6487 unused Assets / (5.9 MB). Loaded Objects now: 7228.
+Memory consumption went from 148.8 MB to 142.9 MB.
+Total: 8.936424 ms (FindLiveObjects: 0.469975 ms CreateObjectMapping: 0.525119 ms MarkObjects: 5.013078 ms  DeleteObjects: 2.927119 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4523.238156 seconds.
-  path: Assets/Phoenix3D/Textures/Outdoor_Wall_T03/Outdoor_Wall_T03_Base_Color.png
-  artifactKey: Guid(6c96e8702ae62564e8ccd06aee9e1334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Phoenix3D/Textures/Outdoor_Wall_T03/Outdoor_Wall_T03_Base_Color.png using Guid(6c96e8702ae62564e8ccd06aee9e1334) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eff52e0750b8116d932c5e4cd854d5b1') in 0.037887932 seconds
+  Time since last request: 3445.243451 seconds.
+  path: Assets/Mateiales/Relleno_1.mat
+  artifactKey: Guid(086f15944dd96d507b2aa714b1e279aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mateiales/Relleno_1.mat using Guid(086f15944dd96d507b2aa714b1e279aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4228512c00e10d18c1a541e5601338dc') in 0.350195393 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 244.638915 seconds.
+  path: Assets/Room/textures/wall/Materials/brick_uneven_stones_basecolor.mat
+  artifactKey: Guid(33d99c48d0e69de48b360555b2f4170e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Room/textures/wall/Materials/brick_uneven_stones_basecolor.mat using Guid(33d99c48d0e69de48b360555b2f4170e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbca9a780006760b05f234e2d33d5476') in 0.034751964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.014100 seconds.
+  path: Assets/Decimate/Grid Master/FBX/GM-Barrier.fbx
+  artifactKey: Guid(d6250de25d4a24abf96542cf5aaaa2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decimate/Grid Master/FBX/GM-Barrier.fbx using Guid(d6250de25d4a24abf96542cf5aaaa2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '594eb87a8559b39fb3043dcba4de2f42') in 0.03107595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Decimate/Grid Master/FBX/GM-Base.fbx
+  artifactKey: Guid(64500cf5710f54741a29f63e2ac69099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decimate/Grid Master/FBX/GM-Base.fbx using Guid(64500cf5710f54741a29f63e2ac69099) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e756a1719792067b6f137127eaa5d068') in 0.008304095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005159 seconds.
+  path: Assets/Decimate/Grid Master/FBX/GM-Edge.fbx
+  artifactKey: Guid(6ee27571d14d14b32a6ab8e026c9259f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decimate/Grid Master/FBX/GM-Edge.fbx using Guid(6ee27571d14d14b32a6ab8e026c9259f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbea835b942414dceb228f26b0ccb7ef') in 0.007275686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014960 seconds.
+  path: Assets/Decimate/Grid Master/FBX/GM-Grid.fbx
+  artifactKey: Guid(ff7929109cf894795a8c04151878ec6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decimate/Grid Master/FBX/GM-Grid.fbx using Guid(ff7929109cf894795a8c04151878ec6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aba591f600a01ef89700f73f136ac5da') in 0.011975443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Decimate/Grid Master/FBX/GM-Stairs.fbx
+  artifactKey: Guid(6373f730dd4344e11838d327cc44a7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decimate/Grid Master/FBX/GM-Stairs.fbx using Guid(6373f730dd4344e11838d327cc44a7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3fcb584bd834be02107ba7a232e3191') in 0.012750033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/Phoenix3D/Textures/Outdoor_Wall_T03/Outdoor_Wall_T03_Normal_DirectX.png
-  artifactKey: Guid(1222710ff14552e48b2bb2187fee79ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Phoenix3D/Textures/Outdoor_Wall_T03/Outdoor_Wall_T03_Normal_DirectX.png using Guid(1222710ff14552e48b2bb2187fee79ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b715522418ce1b3ae30e60f97a565bf') in 0.025099893 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  path: Assets/Decimate/Grid Master/FBX/GM-Wing.fbx
+  artifactKey: Guid(1a197764e9f6c4839b2b7381b727e011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decimate/Grid Master/FBX/GM-Wing.fbx using Guid(1a197764e9f6c4839b2b7381b727e011) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2200ee0ff68a2f1d02d5c3ca4d9f06d4') in 0.012487593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 52.840317 seconds.
-  path: Assets/Phoenix3D/Materials/Outdoor_Wall_T02.mat
-  artifactKey: Guid(957542add39c7114ea1e74bd1c579603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Phoenix3D/Materials/Outdoor_Wall_T02.mat using Guid(957542add39c7114ea1e74bd1c579603) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10294cdb8ec7a25ab86e5a7e623ac489') in 0.316507799 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+  Time since last request: 0.000012 seconds.
+  path: Assets/Decimate/Grid Master/FBX/GM-Plinth.fbx
+  artifactKey: Guid(4f12cf077dba941bb89d33afd2e777ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decimate/Grid Master/FBX/GM-Plinth.fbx using Guid(4f12cf077dba941bb89d33afd2e777ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49b197794d15c49eda68c9df01965354') in 0.012871516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Phoenix3D/Materials/Outdoor_Wall_T14.mat
-  artifactKey: Guid(e9665c59c972a0a49a933c2093023e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Phoenix3D/Materials/Outdoor_Wall_T14.mat using Guid(e9665c59c972a0a49a933c2093023e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02ea5a0730bbebac41c3e09776f762de') in 0.006984396 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+  Time since last request: 0.000014 seconds.
+  path: Assets/Decimate/Grid Master/FBX/GM-Slope.fbx
+  artifactKey: Guid(46eb13d012dcb4088a39a3aeded0a146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decimate/Grid Master/FBX/GM-Slope.fbx using Guid(46eb13d012dcb4088a39a3aeded0a146) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd66b410e37d43686cae6c829f8b992fb') in 0.010931636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Phoenix3D/Materials/Outdoor_Wall_T04.mat
-  artifactKey: Guid(ea349c75f9ba79e4d94ba08f60989345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Phoenix3D/Materials/Outdoor_Wall_T04.mat using Guid(ea349c75f9ba79e4d94ba08f60989345) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '228b87f4ddedc3ff4045fdc5ae056cd3') in 0.007334334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+  Time since last request: 0.000012 seconds.
+  path: Assets/Decimate/Grid Master/FBX/GM-Obelisk.fbx
+  artifactKey: Guid(e85b83bb6c25b447aaefd471b89484c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decimate/Grid Master/FBX/GM-Obelisk.fbx using Guid(e85b83bb6c25b447aaefd471b89484c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6de6ae47dc2c6d90c6e47ed461889752') in 0.011079334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Phoenix3D/Materials/Phoenix3D_LOGO.mat
-  artifactKey: Guid(6703bcb6c5903124588a0a503f71a010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Phoenix3D/Materials/Phoenix3D_LOGO.mat using Guid(6703bcb6c5903124588a0a503f71a010) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92f86afe6d2e2f57d3ae1dcf7e40577f') in 0.006968768 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000014 seconds.
+  path: Assets/Decimate/Grid Master/FBX/GM-Pyramid.fbx
+  artifactKey: Guid(71cb56016a0b044f2abc80fb8d9c12fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decimate/Grid Master/FBX/GM-Pyramid.fbx using Guid(71cb56016a0b044f2abc80fb8d9c12fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ceeb721717cedc182fd9ce004dce3f7') in 0.00830411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Phoenix3D/Materials/Outdoor_Wall_T05.mat
-  artifactKey: Guid(9c951a81c1ee1034f94f55c0e499a111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Phoenix3D/Materials/Outdoor_Wall_T05.mat using Guid(9c951a81c1ee1034f94f55c0e499a111) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8b2bb78f44ed33d4bac2f32ba715480') in 0.00623181 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+  Time since last request: 0.000017 seconds.
+  path: Assets/Decimate/Grid Master/FBX/GM-Steps.fbx
+  artifactKey: Guid(f93effed1de2a45d491562cf7b390497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decimate/Grid Master/FBX/GM-Steps.fbx using Guid(f93effed1de2a45d491562cf7b390497) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2247247f90e8969b2a826221a5203f71') in 0.009430274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Phoenix3D/Materials/Outdoor_Wall_T15.mat
-  artifactKey: Guid(2e09ba36d52985b4fb0a4b32d3292329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Phoenix3D/Materials/Outdoor_Wall_T15.mat using Guid(2e09ba36d52985b4fb0a4b32d3292329) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9ed3f9ecd0943c78627765b181c994f') in 0.07132331 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+  path: Assets/Decimate/Grid Master/FBX/GM-Curve.fbx
+  artifactKey: Guid(5e5b7e4a05f5341759cae72a81d5f494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decimate/Grid Master/FBX/GM-Curve.fbx using Guid(5e5b7e4a05f5341759cae72a81d5f494) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08e633ed5634b2b55909cfc4bd385ac6') in 0.011473801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.979663 seconds.
-  path: Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_02_n.tga
-  artifactKey: Guid(2a9f02e7af68f874a819a831fe6eb13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_02_n.tga using Guid(2a9f02e7af68f874a819a831fe6eb13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6b30bff25b9e9dfe6c67871af1427cb') in 0.008569882 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.000017 seconds.
+  path: Assets/Decimate/Grid Master/FBX/GM-Gear.fbx
+  artifactKey: Guid(2ec921c2166db4355a0d0d5ea1385ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decimate/Grid Master/FBX/GM-Gear.fbx using Guid(2ec921c2166db4355a0d0d5ea1385ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15f842a9fbfcfc24fdcdd4b67f3924c4') in 0.008835402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_04_d.tga
-  artifactKey: Guid(9895ef07873e01e4894c74377fd14169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_04_d.tga using Guid(9895ef07873e01e4894c74377fd14169) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd76f9471d1adcad9c8da3c3be766f7ff') in 0.003828381 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_12_s.tga
-  artifactKey: Guid(a6f602e2d3a679941a4a1b09d7e8dbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_12_s.tga using Guid(a6f602e2d3a679941a4a1b09d7e8dbbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82c3aeb89e11fedaf336f323db50f7ab') in 0.005247526 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_05_s.tga
-  artifactKey: Guid(9b90420c4b45314468f0c5a78238ff13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_05_s.tga using Guid(9b90420c4b45314468f0c5a78238ff13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d9b9d3f9c10fa1cba8d50ead6372347') in 0.005408816 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_08_d.tga
-  artifactKey: Guid(9cefb8da651ecba44b228a85f33727c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_08_d.tga using Guid(9cefb8da651ecba44b228a85f33727c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de76c44c1f142608815e42e846712a25') in 0.003767639 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_12_n.tga
-  artifactKey: Guid(e379df0fa9a18ad4d975b94115e63f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_12_n.tga using Guid(e379df0fa9a18ad4d975b94115e63f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f71afbb88a5d512d7abd60e1c2c4ec34') in 0.005377587 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_10_s.tga
-  artifactKey: Guid(a33a8cf9772227340abe0e62cba7e7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_10_s.tga using Guid(a33a8cf9772227340abe0e62cba7e7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbf5cc999c92fa56f6686f96f9353068') in 0.004939501 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_06_d.tga
-  artifactKey: Guid(9f6599c9e4a723d41af0d344fd2373b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_06_d.tga using Guid(9f6599c9e4a723d41af0d344fd2373b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '008ac76e1d4b016ec910cc453973727a') in 0.003661437 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_09_s.tga
-  artifactKey: Guid(a4f2d1b0bf5aca14f8937faac69f3b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/YughuesFreeFlooringMaterials/Textures/T_YFFlM_09_s.tga using Guid(a4f2d1b0bf5aca14f8937faac69f3b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24333d91e2ac2e61fccde1df4fa0bca0') in 0.003888596 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.465 seconds
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.494 seconds
-Domain Reload Profiling: 962ms
-	BeginReloadAssembly (141ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (276ms)
-		LoadAssemblies (188ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (123ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (108ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (495ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (380ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (229ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6484 unused Assets / (4.0 MB). Loaded Objects now: 7312.
-Memory consumption went from 157.3 MB to 153.3 MB.
-Total: 6.721011 ms (FindLiveObjects: 0.447406 ms CreateObjectMapping: 0.462778 ms MarkObjects: 4.445148 ms  DeleteObjects: 1.365054 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 391.365428 seconds.
-  path: Assets/Phoenix3D/Textures/Outdoor_Wall_T01/Materials/Outdoor_Wall_T01_Height.mat
-  artifactKey: Guid(1ca7b94e5e1f28e6ab66dc2b37f4352c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Phoenix3D/Textures/Outdoor_Wall_T01/Materials/Outdoor_Wall_T01_Height.mat using Guid(1ca7b94e5e1f28e6ab66dc2b37f4352c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58922860e75fd0c609e9a1406daa46e2') in 0.325296732 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Phoenix3D/Textures/Outdoor_Wall_T05/Materials/Outdoor_Wall_T05_Base_Color.mat
-  artifactKey: Guid(6e7d4011c08e01d35a264ff6db370b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Phoenix3D/Textures/Outdoor_Wall_T05/Materials/Outdoor_Wall_T05_Base_Color.mat using Guid(6e7d4011c08e01d35a264ff6db370b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33eae65c789e1ae5729253b190173dc3') in 0.005971519 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Phoenix3D/Textures/Outdoor_Wall_T02/Materials/Outdoor_Wall_T02_Base_Color.mat
-  artifactKey: Guid(1ce3294e1d2ef872dbd6c5c953f54fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Phoenix3D/Textures/Outdoor_Wall_T02/Materials/Outdoor_Wall_T02_Base_Color.mat using Guid(1ce3294e1d2ef872dbd6c5c953f54fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '042ef27164914e36db0a4fd29f9dbd3d') in 0.004536232 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.807269 seconds.
-  path: Assets/Phoenix3D/Textures/Outdoor_Wall_T06/Outdoor_Wall_T06_Base_Color.png
-  artifactKey: Guid(867d1a6589acef245b6b7ce465b94cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Phoenix3D/Textures/Outdoor_Wall_T06/Outdoor_Wall_T06_Base_Color.png using Guid(867d1a6589acef245b6b7ce465b94cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f59955b63c28404b42f76ff14f2e3e17') in 0.008431445 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Phoenix3D/Textures/Outdoor_Wall_T06/Outdoor_Wall_T06_Roughness.png
-  artifactKey: Guid(625979a2f1dc56845b67435c7e75564d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Phoenix3D/Textures/Outdoor_Wall_T06/Outdoor_Wall_T06_Roughness.png using Guid(625979a2f1dc56845b67435c7e75564d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f4e64612a918d30e350d8cea6201aad') in 0.004921856 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.579387 seconds.
+  path: Assets/Decimate/Grid Master/Presets/Texture-Import.preset
+  artifactKey: Guid(f2c5b7af0e39d48f4beae8a2b1198ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decimate/Grid Master/Presets/Texture-Import.preset using Guid(f2c5b7af0e39d48f4beae8a2b1198ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9981c28427930e473f1cac4bcabdb7bf') in 0.002458015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
