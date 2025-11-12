@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class door_controller : MonoBehaviour
 {
-    public float openAngle = -180f;       // Cuánto se abre la puerta
+    public float openAngle = -90f;       // Cuánto se abre la puerta
     public float speed = 2f;            // Velocidad de apertura
     private bool isOpen = false;        // Estado de la puerta
     private Quaternion closedRotation;  // Rotación inicial

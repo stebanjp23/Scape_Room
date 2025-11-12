@@ -47,6 +47,7 @@
     <Analyzer Include="/home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scrpts/caja_fusibles_control.cs" />
     <Compile Include="Assets/BK_AlchemistHouse/Scripts/FreeCamera.cs" />
     <Compile Include="Assets/Scrpts/player_control.cs" />
     <Compile Include="Assets/Scrpts/door_controller.cs" />
