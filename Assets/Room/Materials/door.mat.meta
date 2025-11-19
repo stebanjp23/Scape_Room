@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: de33a5d588af24977a2bc205153dfd33
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 131004
+  packageName: Full Medieval Room
+  packageVersion: 1.0
+  assetPath: Assets/Room/Materials/door.mat
+  uploadId: 278357
