@@ -7,25 +7,25 @@ Distro version:          #88~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Oct 14 14:03
 Kernel version:          6.8.0-87-generic
 Architecture:            x86_64
 Available memory:        31804 MB
-Date:                    2025-11-19T07:28:58Z
+Date:                    2025-11-20T08:56:08Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne" at "2025-11-19T07:28:58.565802Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne" at "2025-11-20T08:56:08.826741Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.17.2'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-alumne"
 [Licensing::IpcConnector] LicenseClient-alumne channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne-6000.2.4" at "2025-11-19T07:28:58.5668Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne-6000.2.4" at "2025-11-20T08:56:08.82775Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.2+ff71f16
-  Session Id:              98d52cc4c2e540b8ab70d77a35d59898
-  Correlation Id:          879379bfd7ce292f63a2a01a86d108cf
-  External correlation Id: 3953251849020211056
+  Session Id:              59ed295800de4092b2daa695f3430af3
+  Correlation Id:          aa1c7e664cc5caae8f8cff06e32798f5
+  External correlation Id: 7951923028990388179
   Machine Id:              PBfslzCGj3XDXh96AHqdGvRuB7g=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-alumne-6000.2.4" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne-6000.2.4-notifications" at "2025-11-19T07:28:58.567353Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alumne-6000.2.4-notifications" at "2025-11-20T08:56:08.830586Z"
 [Licensing::Module] Licensing Background thread has ended after 0.00s
 Selected window backend: (null) 
 Desktop is 1920 x 1080 @ 60 Hz
@@ -43,7 +43,7 @@ AssetImportWorker17
 -logFile
 Logs/AssetImportWorker17.log
 -srvPort
-35379
+44257
 -licensingIpc
 LicenseClient-alumne
 -job-worker-count
@@ -54,9 +54,9 @@ LicenseClient-alumne
 1
 Successfully changed project path to: /home/alumne/Scape_Room
 
-(Unity:6200): Gtk-CRITICAL **: 08:28:58.831: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:8597): Gtk-CRITICAL **: 09:56:09.217: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
 
-(Unity:6200): Gtk-CRITICAL **: 08:28:58.849: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
+(Unity:8597): Gtk-CRITICAL **: 09:56:09.228: gtk_label_set_text: assertion 'GTK_IS_LABEL (label)' failed
 /home/alumne/Scape_Room
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
@@ -93,14 +93,14 @@ Successfully changed project path to: /home/alumne/Scape_Room
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [126828030126848]  Target information:
+Player connection [134518385302272]  Target information:
 
-Player connection [126828030126848]  * "[IP] 192.168.96.79 [Port] 0 [Flags] 2 [Guid] 4110284770 [EditorId] 4110284770 [Version] 1048832 [Id] LinuxEditor(16,192.168.96.79) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [134518385302272]  * "[IP] 192.168.96.79 [Port] 0 [Flags] 2 [Guid] 2696015071 [EditorId] 2696015071 [Version] 1048832 [Id] LinuxEditor(16,192.168.96.79) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [126828030126848]  * "[IP] 192.168.122.1 [Port] 0 [Flags] 2 [Guid] 4110284770 [EditorId] 4110284770 [Version] 1048832 [Id] LinuxEditor(16,192.168.96.79) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [134518385302272]  * "[IP] 192.168.122.1 [Port] 0 [Flags] 2 [Guid] 2696015071 [EditorId] 2696015071 [Version] 1048832 [Id] LinuxEditor(16,192.168.96.79) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [126828030126848] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [126828030126848] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [134518385302272] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [134518385302272] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -112,7 +112,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0,70 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1,17 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 6000.2.4f1 (17550c9bb584)
 [Subsystems] Discovering subsystems at path /home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/Resources/UnitySubsystems
@@ -135,50 +135,50 @@ blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffe
 der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_shader_texture
 _footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR
 _multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1364534968
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1310949368
 Initialize mono
 Mono path[0] = '/home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/Managed'
 Mono path[1] = '/home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56597
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /home/alumne/Unity/Hub/Editor/6000.2.4f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,000860 seconds.
-- Loaded All Assemblies, in  0,249 seconds
+Registered in 0,001376 seconds.
+- Loaded All Assemblies, in  0,375 seconds
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,249 seconds
-Domain Reload Profiling: 498ms
-	BeginReloadAssembly (57ms)
+- Finished resetting the current domain, in  0,411 seconds
+Domain Reload Profiling: 786ms
+	BeginReloadAssembly (79ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (121ms)
-		LoadAssemblies (56ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (187ms)
+		LoadAssemblies (78ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (119ms)
-			TypeCache.Refresh (118ms)
-				TypeCache.ScanAssembly (107ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (183ms)
+				TypeCache.ScanAssembly (169ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (250ms)
+	FinalizeReload (411ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (218ms)
+		SetupLoadedEditorAssemblies (358ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (38ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (48ms)
-			ProcessInitializeOnLoadAttributes (84ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -193,8 +193,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0,458 seconds
-Refreshing native plugins compatible for Editor in 0,19 ms, found 0 plugins.
+- Loaded All Assemblies, in  0,754 seconds
+Refreshing native plugins compatible for Editor in 0,41 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -206,418 +206,561 @@ UpdateMenuTitleForLanguage: 10
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Scape Room
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0,521 seconds
-Domain Reload Profiling: 978ms
-	BeginReloadAssembly (93ms)
+- Finished resetting the current domain, in  0,934 seconds
+Domain Reload Profiling: 1686ms
+	BeginReloadAssembly (154ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (306ms)
-		LoadAssemblies (172ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (484ms)
+		LoadAssemblies (303ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (168ms)
-			TypeCache.Refresh (127ms)
-				TypeCache.ScanAssembly (117ms)
-			BuildScriptInfoCaches (32ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (521ms)
+		AnalyzeDomain (245ms)
+			TypeCache.Refresh (179ms)
+				TypeCache.ScanAssembly (164ms)
+			BuildScriptInfoCaches (54ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (935ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (392ms)
+		SetupLoadedEditorAssemblies (696ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (78ms)
-			ProcessInitializeOnLoadAttributes (246ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (155ms)
+			ProcessInitializeOnLoadAttributes (432ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
 AutoLocale: current locale expects 'C' but got 'ca_ES.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6488 unused Assets / (4.9 MB). Loaded Objects now: 7230.
-Memory consumption went from 149.3 MB to 144.4 MB.
-Total: 8.420185 ms (FindLiveObjects: 0.472263 ms CreateObjectMapping: 0.530273 ms MarkObjects: 4.674654 ms  DeleteObjects: 2.741593 ms)
+Unloading 6488 unused Assets / (5.1 MB). Loaded Objects now: 7245.
+Memory consumption went from 149.9 MB to 144.8 MB.
+Total: 9.957681 ms (FindLiveObjects: 0.511346 ms CreateObjectMapping: 0.604105 ms MarkObjects: 5.443950 ms  DeleteObjects: 3.397223 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1716.368054 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Furniture/Board.prefab
-  artifactKey: Guid(38048b618ab289c40bd4e1fe0b7f3b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Furniture/Board.prefab using Guid(38048b618ab289c40bd4e1fe0b7f3b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4b7c96e5206800880108a4148648e10') in 0.402465271 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+  Time since last request: 6185.293694 seconds.
+  path: Assets/Hand Painted Seamless Wood Texture/Demo/Scenes/Demo.unity
+  artifactKey: Guid(ad7824b2d371bf7429e6931343c78d4a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Hand Painted Seamless Wood Texture/Demo/Scenes/Demo.unity using Guid(ad7824b2d371bf7429e6931343c78d4a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed5772994794c369b2ceb69f3a75a1b3') in 0.202695855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 150.453950 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Items/Books/Book02.prefab
-  artifactKey: Guid(d481a34ef3faa7349a2748e84f1b9dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Books/Book02.prefab using Guid(d481a34ef3faa7349a2748e84f1b9dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a090db848f0bbec2d817598b845e7fb') in 0.00974028 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022557 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Items/Books/Book05.prefab
-  artifactKey: Guid(796bd314a0f462b479fae8d826952ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Books/Book05.prefab using Guid(796bd314a0f462b479fae8d826952ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e06e6b514e4f7437cbd1ed1a88b52a81') in 0.01056725 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.025766 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Items/Books/Book06b.prefab
-  artifactKey: Guid(f12c56f4ef03b7d448d1f7030acc56d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Books/Book06b.prefab using Guid(f12c56f4ef03b7d448d1f7030acc56d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f4dcba5331c2ea3a8841791bbd4e412') in 0.008527732 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028266 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Items/Books/Book09.prefab
-  artifactKey: Guid(c3e875cddf3489b468cc3fa7abf6dd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Books/Book09.prefab using Guid(c3e875cddf3489b468cc3fa7abf6dd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3d237d35a7719c7f568269125fca3b3') in 0.008010007 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Items/Books/Books2.prefab
-  artifactKey: Guid(53a5ca55612b2104c812770a7799f03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Books/Books2.prefab using Guid(53a5ca55612b2104c812770a7799f03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a538476604d92022a82ae1a627d018b') in 0.032606509 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 146
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Items/Books/Book09e.prefab
-  artifactKey: Guid(c57d4eaba6aa70b4c9d1e0fbc9b4d1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Books/Book09e.prefab using Guid(c57d4eaba6aa70b4c9d1e0fbc9b4d1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f0ed62429396d7f548e1c8c7748dae2') in 0.008146985 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Items/Books/Books4.prefab
-  artifactKey: Guid(02c8e7d6543477e41af07f3454648f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Books/Books4.prefab using Guid(02c8e7d6543477e41af07f3454648f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e52dd41eb3ebd9f49885feda83abcf8') in 0.027222599 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 128
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Items/Books/Books5.prefab
-  artifactKey: Guid(1d638ac5f82a1c345bcdb04a2bd63173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Books/Books5.prefab using Guid(1d638ac5f82a1c345bcdb04a2bd63173) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12569d5702c3a9d412f9ec97cae8db5b') in 0.026104353 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 220
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Items/Books/Book10.prefab
-  artifactKey: Guid(c5c372c1214e3794597498187eadb8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Books/Book10.prefab using Guid(c5c372c1214e3794597498187eadb8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9fad8439cdcdc08233803681fe74d05') in 0.010437009 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Items/Books/Book13.prefab
-  artifactKey: Guid(1e474545e8c18814b9fcc93023b7eae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Books/Book13.prefab using Guid(1e474545e8c18814b9fcc93023b7eae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32fd3274a69645f37e360bbd89cd802d') in 0.00984098 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Items/Books/Book09b.prefab
-  artifactKey: Guid(bdcf5b61bc2b6ec49991e101a3419064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Books/Book09b.prefab using Guid(bdcf5b61bc2b6ec49991e101a3419064) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69ddcdaae9d196ce59cea45b162091ee') in 0.00749099 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Items/Books/Book14.prefab
-  artifactKey: Guid(a0543414902818d4e84b4f59eda93ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Books/Book14.prefab using Guid(a0543414902818d4e84b4f59eda93ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c2885d080d89b96f7e55ff9487519f97') in 0.006269669 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Items/Books/Book05b.prefab
-  artifactKey: Guid(f929b31c9d7002444a63e65f2fd0ef27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Books/Book05b.prefab using Guid(f929b31c9d7002444a63e65f2fd0ef27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c546e4610710b3ffedd3512b04f7fc38') in 0.006140405 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Items/Books/Book04.prefab
-  artifactKey: Guid(87344e539b3852b4599034f8cdefd35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Books/Book04.prefab using Guid(87344e539b3852b4599034f8cdefd35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '513b85ac042620bedb654d616ea9e908') in 0.029687971 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.396246 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Items/Bottles/Bottle01b.prefab
-  artifactKey: Guid(d522d2741e0fe72499f82d78c19c3b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Bottles/Bottle01b.prefab using Guid(d522d2741e0fe72499f82d78c19c3b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ae167215c76d95f1af25d9e47654048') in 0.015881174 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Items/Bottles/Flask04.prefab
-  artifactKey: Guid(ae3779d7b6bd0eb4392924324f09dbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Bottles/Flask04.prefab using Guid(ae3779d7b6bd0eb4392924324f09dbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '567bc9d0d809ddafa39b5c1af22395b7') in 0.007390619 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Items/Bottles/Bottle04b.prefab
-  artifactKey: Guid(ca3739910f6e7584e88fa51791a74a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Bottles/Bottle04b.prefab using Guid(ca3739910f6e7584e88fa51791a74a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f08e4b5cf593aba90a3668f53792b6a') in 0.012531477 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Items/Bottles/Flask06.prefab
-  artifactKey: Guid(37f241200e99b2e41a0f3e92f811ff19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Bottles/Flask06.prefab using Guid(37f241200e99b2e41a0f3e92f811ff19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17376d41ef9e5f1fd9899b62c1125bc7') in 0.008194195 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+  Time since last request: 0.000018 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Ingredients/Ingredient02.FBX
+  artifactKey: Guid(9fee271e08f47bb45a2587d0bf0e5f33) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Ingredients/Ingredient02.FBX using Guid(9fee271e08f47bb45a2587d0bf0e5f33) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '97929386f0c87f7f78d0fce48ac6cb0b') in 0.114634015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Items/Bottles/Flask01.prefab
-  artifactKey: Guid(99d1fecb38c7bef41b71767f41b46db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Bottles/Flask01.prefab using Guid(99d1fecb38c7bef41b71767f41b46db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d0e4cd87c706b62635c6eabfe6a802a') in 0.007405442 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+  path: Assets/Room/textures/window/trancpernt + base color emmesive.hdr
+  artifactKey: Guid(0886c0e4b6e88fc45b83b22092e8b8f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Room/textures/window/trancpernt + base color emmesive.hdr using Guid(0886c0e4b6e88fc45b83b22092e8b8f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd366632faf1c3d3115429208c23d4c04') in 0.031429983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Room/textures/roofrop/top_roof_wood_Base_Color.png
+  artifactKey: Guid(5e7ae7b6d40af8046a4fb91f704fc0f8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Room/textures/roofrop/top_roof_wood_Base_Color.png using Guid(5e7ae7b6d40af8046a4fb91f704fc0f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55e4d7e48a332e659ed0c053fa7260b9') in 0.011064479 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Bottles/Flask02.FBX
+  artifactKey: Guid(7cc410e3540dbf04991e20fd3f5379ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Bottles/Flask02.FBX using Guid(7cc410e3540dbf04991e20fd3f5379ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '728959099e714a6f8ff451d663ddc81c') in 0.006381155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Lab/liquid.FBX
+  artifactKey: Guid(03884c3c167a0ab4dabc169da94e5ac8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Lab/liquid.FBX using Guid(03884c3c167a0ab4dabc169da94e5ac8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c18f43bc8362fcb291fd31d646bc14dc') in 0.009470275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/YughuesFreeFlooringMaterials/Preview/Sc_YFFlM_Preview/ReflectionProbe-1.exr
+  artifactKey: Guid(8dae168aa496b744a9769cfee829112e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/YughuesFreeFlooringMaterials/Preview/Sc_YFFlM_Preview/ReflectionProbe-1.exr using Guid(8dae168aa496b744a9769cfee829112e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd26ef10602adb3677167695d387c5b31') in 0.006907287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Room/textures/wall/brick_uneven_stones_roughness.png
+  artifactKey: Guid(040e9f53653144143a76ecfa545ffe61) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Room/textures/wall/brick_uneven_stones_roughness.png using Guid(040e9f53653144143a76ecfa545ffe61) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6ce9e0d63e38608d705f92cb1720ac2') in 0.012163845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Room/textures/chiar/wood the tabel and chaer.002_Base_Color.png
+  artifactKey: Guid(f69b0381dd2e0bc4987103d490444d22) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Room/textures/chiar/wood the tabel and chaer.002_Base_Color.png using Guid(f69b0381dd2e0bc4987103d490444d22) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aeaa82e2ef0cb4a83ef3a3757c4d06ff') in 0.011558734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BK_AlchemistHouse/Prefabs/Items/Books/Book06.prefab
+  artifactKey: Guid(c37d18c7c08d8fe4383bb57d61aef59a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Books/Book06.prefab using Guid(c37d18c7c08d8fe4383bb57d61aef59a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04832517e3e7da66a024ba23af42ab68') in 0.011429764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d300a495fd1976d4bd795c1e3e8c9ce') in 0.01489722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Lab/LabSetup02.FBX
+  artifactKey: Guid(26e6bae5ccf202c4784d944e0b4f7caf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Lab/LabSetup02.FBX using Guid(26e6bae5ccf202c4784d944e0b4f7caf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '86ff0d0b209d030688ab19fdb29a4f44') in 0.030846185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 76
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BK_AlchemistHouse/Prefabs/Items/Dishes/ClutterBowl01.prefab
+  artifactKey: Guid(e0d4d52fea702384089c59d8d5275d9f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Dishes/ClutterBowl01.prefab using Guid(e0d4d52fea702384089c59d8d5275d9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3bdfe8a5aed710a5dcde21a3fc705d5') in 0.012338375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Organic/Skull01.FBX
+  artifactKey: Guid(c19276309eb41c9479db16d861cb9911) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Organic/Skull01.FBX using Guid(c19276309eb41c9479db16d861cb9911) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3386664537b55c95aa5936bed4bbf237') in 0.008014587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Decimate/Grid Master/FBX/GM-Ring.fbx
+  artifactKey: Guid(2b99eb94a691b42ab980826f80b14a50) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Decimate/Grid Master/FBX/GM-Ring.fbx using Guid(2b99eb94a691b42ab980826f80b14a50) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '248991f24872b4576a7306ab03465312') in 0.012557404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/BK_AlchemistHouse/Models/Items/Dishes/ClutterBowl02.FBX
+  artifactKey: Guid(cf1e5b7515de4344ba69328c07066cb9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Models/Items/Dishes/ClutterBowl02.FBX using Guid(cf1e5b7515de4344ba69328c07066cb9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b71f4036294e47b60874236a2ff99b20') in 0.011505553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Phoenix3D/Textures/Outdoor_Wall_T11/Outdoor_Wall_T11_Base_Color.png
+  artifactKey: Guid(6ef70f63575dd8e4b9bfc835ee314c39) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Phoenix3D/Textures/Outdoor_Wall_T11/Outdoor_Wall_T11_Base_Color.png using Guid(6ef70f63575dd8e4b9bfc835ee314c39) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ba02baef980663450484d4eb8a49893') in 0.005385551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.092069 seconds.
+  path: Assets/BK_AlchemistHouse/Prefabs/Items/Dishes/ClutterPichet03.prefab
+  artifactKey: Guid(5b9389545005b8245bd30314aa7807c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Dishes/ClutterPichet03.prefab using Guid(5b9389545005b8245bd30314aa7807c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '891330e981d0529d2c86cdc12d6e753e') in 0.011817732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Books/Book07_m.png
+  artifactKey: Guid(4a626397e592b36429d345bad4c80755) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Books/Book07_m.png using Guid(4a626397e592b36429d345bad4c80755) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c66b6892817b7a04309a3fbf79e74b66') in 0.007109954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BK_AlchemistHouse/Prefabs/Items/Lab/Caldron01.prefab
+  artifactKey: Guid(9b0c8952fc97e994fb2d53bd5a44acc3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Lab/Caldron01.prefab using Guid(9b0c8952fc97e994fb2d53bd5a44acc3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2ff7b8ad61f00f8a03894ba500fe08b') in 0.005982056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Items/Bottles/Bottle02b.prefab
-  artifactKey: Guid(d52ccc8cd6cb08849bcc2ed28cf411eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Bottles/Bottle02b.prefab using Guid(d52ccc8cd6cb08849bcc2ed28cf411eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5f071ed228cfbaa49aaaf0b76d3e30c') in 0.011340016 seconds
+  path: Assets/BK_AlchemistHouse/Textures/Items/Flasks/Flask01.png
+  artifactKey: Guid(c9f331b0c2ae7434ebce442da43996f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Flasks/Flask01.png using Guid(c9f331b0c2ae7434ebce442da43996f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '29e812ae8e45f720e4c5c99b6f023816') in 0.007419195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/BK_AlchemistHouse/Prefabs/Items/Lab/LabSetup01.prefab
+  artifactKey: Guid(20ea8160d97044b42929888ba38f2a16) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Lab/LabSetup01.prefab using Guid(20ea8160d97044b42929888ba38f2a16) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df2f4d7ff849576fe26e65be524f7bef') in 0.004195951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BK_AlchemistHouse/Prefabs/Items/Weapons/Bow01.prefab
+  artifactKey: Guid(eaa77e0b73f86e24fa9078dbfadf94bb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Weapons/Bow01.prefab using Guid(eaa77e0b73f86e24fa9078dbfadf94bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9158d5f5c7d1d94a97dd99d0d6e393af') in 0.006752401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Books/Book02_m.png
+  artifactKey: Guid(871097bf16e2ce341b934fb26189775f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Books/Book02_m.png using Guid(871097bf16e2ce341b934fb26189775f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff8c07913512da866d4c6822f5bc0e66') in 0.010651318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Flasks/Flask01_n.png
+  artifactKey: Guid(98f56120d40b63947be13d02d05bed76) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Flasks/Flask01_n.png using Guid(98f56120d40b63947be13d02d05bed76) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a67d6722d701e1ea0f7df73920f829c') in 0.007552896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Ingredient07_h.png
+  artifactKey: Guid(e2d44a2fba0870e47a98c1af76614846) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Ingredient07_h.png using Guid(e2d44a2fba0870e47a98c1af76614846) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d0e4d6128c1c5127d06fd3622f3c30b') in 0.01100658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Books/Book09b.png
+  artifactKey: Guid(75747f63441f2ff47a6703fa41dbd08b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Books/Book09b.png using Guid(75747f63441f2ff47a6703fa41dbd08b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f841fbc430858d5aebe467440b8f824') in 0.007432709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Ingredient02_h.png
+  artifactKey: Guid(59df48afc5830e140becaf70d215af10) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Ingredient02_h.png using Guid(59df48afc5830e140becaf70d215af10) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '457e79d5fd3bcf90d1935d2e6b203422') in 0.009116778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Books/Book11.png
+  artifactKey: Guid(069d81998bdfdd240858cead98faa639) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Books/Book11.png using Guid(069d81998bdfdd240858cead98faa639) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0baefac411630436322a7e5bdb25a052') in 0.007528213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Books/Book13_n.png
+  artifactKey: Guid(a4732979165375b4299ebd51ad105c4c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Books/Book13_n.png using Guid(a4732979165375b4299ebd51ad105c4c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88c1dc05f0f3fc9229122a93a32a6eab') in 0.016166066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Flasks/Flask02.png
+  artifactKey: Guid(d589d8f0d1282774d9eaebfc48b254d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Flasks/Flask02.png using Guid(d589d8f0d1282774d9eaebfc48b254d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1721cabae76ac074575773ef18fdb119') in 0.014413804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Books/Book06c_m.png
+  artifactKey: Guid(e2cc4546771ae2743aed5956a41bbc39) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Books/Book06c_m.png using Guid(e2cc4546771ae2743aed5956a41bbc39) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c56695f434ac1ef82e9ed7dbcd6090db') in 0.005264661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Ingredient03_h.png
+  artifactKey: Guid(ae624e811c90d884484754920d3b8b78) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Ingredient03_h.png using Guid(ae624e811c90d884484754920d3b8b78) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ddcf80c2c472fd20f88cff95cb473c5') in 0.008882876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Books/Book10c.png
+  artifactKey: Guid(3cc5abe14ed3b06418a5341c3a8ccb42) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Books/Book10c.png using Guid(3cc5abe14ed3b06418a5341c3a8ccb42) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b890395fc2dab3db3b10661efc0ab1b') in 0.007323777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Books/Book05.png
+  artifactKey: Guid(e92a84a65c2e5424a96c68b880394faa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Books/Book05.png using Guid(e92a84a65c2e5424a96c68b880394faa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb5bc060f0b09142392730fe8c9e9cd5') in 0.007195711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Furniture/Materials/Weapons01.mat
+  artifactKey: Guid(afed15aa14656e24caf85a97cb40ca48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Furniture/Materials/Weapons01.mat using Guid(afed15aa14656e24caf85a97cb40ca48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '19e490ea1f4298df200ea8321505375b') in 0.029653437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.111212 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Lights/OilLamp_i.png
+  artifactKey: Guid(12e95d0b4001ce743aa1b8c7be41cacc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Lights/OilLamp_i.png using Guid(12e95d0b4001ce743aa1b8c7be41cacc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c3b9645ec4b1052791b24a77365d270a') in 0.010739816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Room/textures/chiar/Materials/wood the tabel and chaer.002_Normal_DirectX 1.mat
+  artifactKey: Guid(fe8c34defa0f25344a981704b2e29b61) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Room/textures/chiar/Materials/wood the tabel and chaer.002_Normal_DirectX 1.mat using Guid(fe8c34defa0f25344a981704b2e29b61) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c5ac73ed68dd136d8f91bfb441fb349') in 0.004816083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/WoodRough03.mat
+  artifactKey: Guid(9067a3010d5cb9c48bfba4165d38354b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/WoodRough03.mat using Guid(9067a3010d5cb9c48bfba4165d38354b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc922e8b6c3d78e0123ecd227d57d0e6') in 0.010018569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/Blackboard01c.mat
+  artifactKey: Guid(4d3c28575f48c7246b667aa32134ddf4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/Blackboard01c.mat using Guid(4d3c28575f48c7246b667aa32134ddf4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '651c9300263934e87e51dfde05b0d8b5') in 0.007356443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/Marble 2.mat
+  artifactKey: Guid(e79f5482f1e6a416b8fa81c0a5bc2cf7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/Marble 2.mat using Guid(e79f5482f1e6a416b8fa81c0a5bc2cf7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0e7f7b11998d5b455e8d90bef4b4703') in 0.004387016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/Plastic.mat
+  artifactKey: Guid(5679a458d12541443b5852291b0a6287) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/Plastic.mat using Guid(5679a458d12541443b5852291b0a6287) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '220b015d2a131748f07081e4abc94e21') in 0.003874163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Decimate/Grid Master/URP/Prefabs/GM-Beam - URP.prefab
+  artifactKey: Guid(8542e129661ee4a158e2ecdc7a105573) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Decimate/Grid Master/URP/Prefabs/GM-Beam - URP.prefab using Guid(8542e129661ee4a158e2ecdc7a105573) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76c364f0f69d0f5a5b2410631649b832') in 0.008541026 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Items/Bottles/Flask05.prefab
-  artifactKey: Guid(3c878bfc3da36aa478e475627da7c983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Bottles/Flask05.prefab using Guid(3c878bfc3da36aa478e475627da7c983) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da6bc176e8d38a3bfaadaa92dd1832cd') in 0.00742153 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+  Time since last request: 0.000030 seconds.
+  path: Assets/Decimate/Grid Master/URP/Materials/GM-Grid-04-URP.mat
+  artifactKey: Guid(34d5d83009c3e484f8fc28bc2b391f0b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Decimate/Grid Master/URP/Materials/GM-Grid-04-URP.mat using Guid(34d5d83009c3e484f8fc28bc2b391f0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '213277cb3d466c8fa7182714443e8da3') in 0.006839676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.522706 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Items/Lab/CaldronTripod01.prefab
-  artifactKey: Guid(0221c5bfe55a9cf4e8bf12326ebc6828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Lab/CaldronTripod01.prefab using Guid(0221c5bfe55a9cf4e8bf12326ebc6828) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '687488ef5867475fea24c29ef619a494') in 0.016473097 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+  Time since last request: 0.000013 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Organic/Baby02.png
+  artifactKey: Guid(cc041b82c7f354d4684e834b2682dd9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Organic/Baby02.png using Guid(cc041b82c7f354d4684e834b2682dd9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9dd804972cc80ef5bba74b43450b6734') in 0.014832116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Items/Lab/CaldronTripod03.prefab
-  artifactKey: Guid(35e3ab7ff7051974294fd5365733bdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Lab/CaldronTripod03.prefab using Guid(35e3ab7ff7051974294fd5365733bdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4672c0e16b608076d0af41988dd5da8') in 0.016932573 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+  Time since last request: 0.000012 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/WoodRough6.mat
+  artifactKey: Guid(05419a70dccfd6ab89416b5d67af5b70) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/WoodRough6.mat using Guid(05419a70dccfd6ab89416b5d67af5b70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '819b81f6b435e89aa2f91de07026d4fb') in 0.005255387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Room/textures/table/Materials/wood the tabel and chaer_Normal_DirectX 4.mat
+  artifactKey: Guid(9f6469ee91829e3dbbf41584d2428a42) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Room/textures/table/Materials/wood the tabel and chaer_Normal_DirectX 4.mat using Guid(9f6469ee91829e3dbbf41584d2428a42) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e58dc2bc9d08b5039ce615a4cf90a371') in 0.006115497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/PlasterBare2.mat
+  artifactKey: Guid(a9d1904829c4c4d16b3514d6deb17a64) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/PlasterBare2.mat using Guid(a9d1904829c4c4d16b3514d6deb17a64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'abb2bb19a2da5c505e771a4764c10dcd') in 0.005764373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/PlasterBare04.mat
+  artifactKey: Guid(033c4e4b7c84c454a8dd100ed2090f49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/PlasterBare04.mat using Guid(033c4e4b7c84c454a8dd100ed2090f49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b94ea2aeeda15e7323b7b9f1edf29e41') in 0.010059947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Room/textures/floor/Materials/marble_1_height.mat
+  artifactKey: Guid(e87771ec12bc01999885102aaa5ffdc3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Room/textures/floor/Materials/marble_1_height.mat using Guid(e87771ec12bc01999885102aaa5ffdc3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a97d973523005796bbf1dd62a2c0677') in 0.004157348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/WoodOrn01.mat
+  artifactKey: Guid(8bb543d77c2b84248b3658d104e61522) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/WoodOrn01.mat using Guid(8bb543d77c2b84248b3658d104e61522) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd1332d221550db9bd09db6c446639f73') in 0.009572233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Phoenix3D/Textures/Outdoor_Wall_T08/Materials/Outdoor_Wall_T08_Ambient_occlusion.mat
+  artifactKey: Guid(1f83706cef9c449c8abbf93b16a1baf6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Phoenix3D/Textures/Outdoor_Wall_T08/Materials/Outdoor_Wall_T08_Ambient_occlusion.mat using Guid(1f83706cef9c449c8abbf93b16a1baf6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be9b00362ef0a213501ffcda54f709d4') in 0.004143196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Misc/Log03_n.png
+  artifactKey: Guid(5950d8ca04cf9c54fa00524bfdfaa37a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Misc/Log03_n.png using Guid(5950d8ca04cf9c54fa00524bfdfaa37a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '82f26121d5c76ba411e723a55616e59b') in 0.015774414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Organic/Baby03_n.png
+  artifactKey: Guid(da1d111343edd91489dc895d5dd81ab5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Organic/Baby03_n.png using Guid(da1d111343edd91489dc895d5dd81ab5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8265600f26ebd25c29717eb4e9fc5786') in 0.012308082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/StoneFloor1.mat
+  artifactKey: Guid(93b555c0db92b10a9bbe400b976a11ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/StoneFloor1.mat using Guid(93b555c0db92b10a9bbe400b976a11ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e760f07fb8805f8e3fe27bddb387f45f') in 0.005817069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Organic/Baby02_n.png
+  artifactKey: Guid(4b2dbc8d0a1c6d841b250bc0a91ad726) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Organic/Baby02_n.png using Guid(4b2dbc8d0a1c6d841b250bc0a91ad726) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '475eb9b420681aef2cea710a8f536ba4') in 0.017736553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Organic/Skull01.png
+  artifactKey: Guid(f2a64d525f299b64fb0da872f69f7879) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Organic/Skull01.png using Guid(f2a64d525f299b64fb0da872f69f7879) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f633304461b232863a6c80b19364159') in 0.010022036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Organic/Baby02_o.png
+  artifactKey: Guid(2707cfd9ee5cdd341b2cb6aee8da5d48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Organic/Baby02_o.png using Guid(2707cfd9ee5cdd341b2cb6aee8da5d48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7265f24c2ded74dd5d13395a68331b3a') in 0.012913296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Organic/Materials/Skull01.mat
+  artifactKey: Guid(09aa0ce94b6769f4791f8252858680f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Organic/Materials/Skull01.mat using Guid(09aa0ce94b6769f4791f8252858680f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb381dc88b3534fb8fcfd1e7e91b9d64') in 0.013464523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Items/Lab/LabSetup02.prefab
-  artifactKey: Guid(4d1cebdc049362f46a8c7ade7cd87b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Lab/LabSetup02.prefab using Guid(4d1cebdc049362f46a8c7ade7cd87b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Shader properties can't be added to this global property sheet. Trying to add RefractionGrab1_ST (type 2 count 1)
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEngine.Rendering.ScriptableRenderContext:Submit () (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/ScriptableRenderContext.cs:146)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:891)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:691)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:666)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:483)
-UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipeline.cs:58)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:159)
-UnityEngine.Camera:Render ()
-UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:554)
-UnityEditor.GameObjectInspector:DoRenderPreview (UnityEditor.GameObjectInspector/PreviewData) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:1165)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:1179)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /home/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:36)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:12)
-
-[/home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 35]
-
-Shader properties can't be added to this global property sheet. Trying to add RefractionGrab1_TexelSize (type 2 count 1)
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEngine.Rendering.ScriptableRenderContext:Submit () (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/ScriptableRenderContext.cs:146)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:891)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:691)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:666)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:483)
-UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipeline.cs:58)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:159)
-UnityEngine.Camera:Render ()
-UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:554)
-UnityEditor.GameObjectInspector:DoRenderPreview (UnityEditor.GameObjectInspector/PreviewData) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:1165)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:1179)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /home/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:36)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:12)
-
-[/home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 35]
-
-Shader properties can't be added to this global property sheet. Trying to add RefractionGrab1_HDR (type 2 count 1)
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEngine.Rendering.ScriptableRenderContext:Submit () (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/ScriptableRenderContext.cs:146)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:891)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:691)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:666)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:483)
-UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipeline.cs:58)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:159)
-UnityEngine.Camera:Render ()
-UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:554)
-UnityEditor.GameObjectInspector:DoRenderPreview (UnityEditor.GameObjectInspector/PreviewData) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:1165)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:1179)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /home/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:36)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:12)
-
-[/home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 35]
-
-Shader properties can't be added to this global property sheet. Trying to add RefractionGrab1 (type 4 count 1)
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEngine.Rendering.ScriptableRenderContext:Submit () (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/ScriptableRenderContext.cs:146)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:891)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:691)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:666)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:483)
-UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipeline.cs:58)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:159)
-UnityEngine.Camera:Render ()
-UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:554)
-UnityEditor.GameObjectInspector:DoRenderPreview (UnityEditor.GameObjectInspector/PreviewData) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:1165)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:1179)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /home/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:36)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:12)
-
-[/home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 35]
-
- -> (artifact id: 'f944a7448c22843a71f5e4eac5ad1062') in 0.038104688 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 105
+  path: Assets/BK_AlchemistHouse/Textures/Items/Misc/Materials/Log03.mat
+  artifactKey: Guid(594a4c4f45e26394c8ecd72360494944) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Misc/Materials/Log03.mat using Guid(594a4c4f45e26394c8ecd72360494944) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '70499658ea39caedbcecc95b8ec61e78') in 0.01064319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/BK_AlchemistHouse/Prefabs/Items/Lab/LabSetup01.prefab
-  artifactKey: Guid(20ea8160d97044b42929888ba38f2a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Prefabs/Items/Lab/LabSetup01.prefab using Guid(20ea8160d97044b42929888ba38f2a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Shader properties can't be added to this global property sheet. Trying to add RefractionGrab1_ST (type 2 count 1)
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEngine.Rendering.ScriptableRenderContext:Submit () (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/ScriptableRenderContext.cs:146)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:891)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:691)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:666)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:483)
-UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipeline.cs:58)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:159)
-UnityEngine.Camera:Render ()
-UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:554)
-UnityEditor.GameObjectInspector:DoRenderPreview (UnityEditor.GameObjectInspector/PreviewData) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:1165)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:1179)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /home/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:36)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:12)
-
-[/home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 35]
-
-Shader properties can't be added to this global property sheet. Trying to add RefractionGrab1_TexelSize (type 2 count 1)
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEngine.Rendering.ScriptableRenderContext:Submit () (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/ScriptableRenderContext.cs:146)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:891)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:691)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:666)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:483)
-UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipeline.cs:58)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:159)
-UnityEngine.Camera:Render ()
-UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:554)
-UnityEditor.GameObjectInspector:DoRenderPreview (UnityEditor.GameObjectInspector/PreviewData) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:1165)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:1179)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /home/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:36)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:12)
-
-[/home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 35]
-
-Shader properties can't be added to this global property sheet. Trying to add RefractionGrab1_HDR (type 2 count 1)
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEngine.Rendering.ScriptableRenderContext:Submit () (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/ScriptableRenderContext.cs:146)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:891)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:691)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:666)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:483)
-UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipeline.cs:58)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:159)
-UnityEngine.Camera:Render ()
-UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:554)
-UnityEditor.GameObjectInspector:DoRenderPreview (UnityEditor.GameObjectInspector/PreviewData) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:1165)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:1179)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /home/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:36)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:12)
-
-[/home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 35]
-
-Shader properties can't be added to this global property sheet. Trying to add RefractionGrab1 (type 4 count 1)
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEngine.Rendering.ScriptableRenderContext:Submit () (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/ScriptableRenderContext.cs:146)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:891)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:691)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:666)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@3a81e6286796/Runtime/UniversalRenderPipeline.cs:483)
-UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipeline.cs:58)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle) (at /home/bokken/build/output/unity/unity/Runtime/Export/RenderPipeline/RenderPipelineManager.cs:159)
-UnityEngine.Camera:Render ()
-UnityEditor.PreviewRenderUtility:Render (bool,bool) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/PreviewRenderUtility.cs:554)
-UnityEditor.GameObjectInspector:DoRenderPreview (UnityEditor.GameObjectInspector/PreviewData) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:1165)
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int) (at /home/bokken/build/output/unity/unity/Editor/Mono/Inspector/GameObjectInspector.cs:1179)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int) (at /home/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:36)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string) (at /home/bokken/build/output/unity/unity/Editor/Mono/AssetPreviewUpdater.cs:12)
-
-[/home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 35]
-
- -> (artifact id: '502e865f9308aef04677564fddaa8ed1') in 0.017375599 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 63
+  Time since last request: 0.000029 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Materials/Ingredient02.mat
+  artifactKey: Guid(a3c11b5727a713d48a2b55fd97397358) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Materials/Ingredient02.mat using Guid(a3c11b5727a713d48a2b55fd97397358) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa64dea884103755237931bc8e3c1679') in 0.018087699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.768027 seconds.
-  path: Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/Blackboard01c.mat
-  artifactKey: Guid(4d3c28575f48c7246b667aa32134ddf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BK_AlchemistHouse/Textures/Surfaces/Materials/Blackboard01c.mat using Guid(4d3c28575f48c7246b667aa32134ddf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e3edad6d186ef1c5772a89177d1d395') in 0.02868819 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000015 seconds.
+  path: Assets/Phoenix3D/Textures/Outdoor_Wall_T15/Materials/Outdoor_Wall_T15_Base_Color.mat
+  artifactKey: Guid(853f077c28c63b880add3195d2f72bd0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Phoenix3D/Textures/Outdoor_Wall_T15/Materials/Outdoor_Wall_T15_Base_Color.mat using Guid(853f077c28c63b880add3195d2f72bd0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '63d50595e8e06e18ae64bdfba62a2145') in 0.007607841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Room/textures/chiar/Materials/wood the tabel and chaer.002_Normal_DirectX.mat
+  artifactKey: Guid(2a9500e5ca7b3b849809d7cf16fa330b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Room/textures/chiar/Materials/wood the tabel and chaer.002_Normal_DirectX.mat using Guid(2a9500e5ca7b3b849809d7cf16fa330b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0dff2547dd7e65d5ed37d6949325224c') in 0.00646008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Materials/Ingredient07.mat
+  artifactKey: Guid(41b398594d634984898bd358c93ff6cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BK_AlchemistHouse/Textures/Items/Ingredients/Materials/Ingredient07.mat using Guid(41b398594d634984898bd358c93ff6cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43bdb731a360bee3b063df53a0437aa5') in 0.009920076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+Editor requested this worker to shutdown with reason: balancing worker count downwards
 AssetImportWorker is now disconnected from the server
 Process exiting
 
 SDL leaked 2 allocations
-Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).

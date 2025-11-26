@@ -10,7 +10,7 @@ public class player_control : MonoBehaviour
     private CharacterController controller;
     private Vector2 moveInput;
     private Vector2 lookInput;
-    private float xRotation = 50f;
+    private float xRotation = 0f;
 
     void Start()
     {
@@ -31,18 +31,21 @@ public class player_control : MonoBehaviour
 
     void Update()
     {
-        // Movimiento
-        Vector3 move = transform.right * moveInput.x + transform.forward * moveInput.y;
-        controller.SimpleMove(move * speed);
 
-        // Rotación del mouse
-        float mouseX = lookInput.x * sensitivity;
-        float mouseY = lookInput.y * sensitivity;
+        if (Cursor.lockState == CursorLockMode.Locked) 
+        {
+            // Movimiento
+            Vector3 move = transform.right * moveInput.x + transform.forward * moveInput.y;
+            controller.SimpleMove(move * speed);
+            // Rotación del mouse
+            float mouseX = lookInput.x * sensitivity;
+            float mouseY = lookInput.y * sensitivity;
 
-        xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -80f, 80f);
+            xRotation -= mouseY;
+            xRotation = Mathf.Clamp(xRotation, -80f, 80f);
 
-        playerCamera.transform.localRotation = Quaternion.Euler(xRotation, 0, 0);
-        transform.Rotate(Vector3.up * mouseX);
+            playerCamera.transform.localRotation = Quaternion.Euler(xRotation, 0, 0);
+            transform.Rotate(Vector3.up * mouseX);
+        }
     }
 }
