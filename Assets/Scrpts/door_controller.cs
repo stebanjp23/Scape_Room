@@ -5,33 +5,54 @@ using UnityEngine.InputSystem;
 
 public class door_controller : MonoBehaviour
 {
+    [Header("Puerta")]
+    public Transform puerta;
     public float openAngle = -90f;       // Cuánto se abre la puerta
     public float speed = 2f;            // Velocidad de apertura
     private bool isOpen = false;        // Estado de la puerta
     private Quaternion closedRotation;  // Rotación inicial
     private Quaternion openRotation;    // Rotación final
+    private bool jugadorEnZona = false; //Ve si el jugador esta en la zona
 
     void Start()
     {
-        closedRotation = transform.rotation;
-        openRotation = Quaternion.Euler(transform.eulerAngles + new Vector3(0, openAngle, 0));
+        closedRotation = puerta.rotation;
+        openRotation = Quaternion.Euler(puerta.eulerAngles + new Vector3(0, openAngle, 0));
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Keyboard.current.rKey.wasPressedThisFrame) // Cuando presiones "E"
+        if (jugadorEnZona && Keyboard.current.rKey.wasPressedThisFrame && InventarioJugador.TieneLlave) // Suponiendo que hay un InventarioJugador estático
         {
-            isOpen = !isOpen; // Cambia el estado (abrir/cerrar)
+            isOpen = true;
+            Debug.Log("Puerta abierta con llave.");
         }
 
         if (isOpen)
         {
-            transform.rotation = Quaternion.Lerp(transform.rotation, openRotation, Time.deltaTime * speed);
+            puerta.rotation = Quaternion.Lerp(puerta.rotation, openRotation, Time.deltaTime * speed);
         }
         else
         {
-            transform.rotation = Quaternion.Lerp(transform.rotation, closedRotation, Time.deltaTime * speed);
+            puerta.rotation = Quaternion.Lerp(puerta.rotation, closedRotation, Time.deltaTime * speed);
+        }
+    }
+
+     private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            jugadorEnZona = true;
+            Debug.Log("Acércate y presiona R para abrir la puerta.");
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            jugadorEnZona = false;
         }
     }
 }

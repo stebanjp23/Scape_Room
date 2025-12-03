@@ -48,8 +48,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scrpts/caja_fusibles_control.cs" />
+    <Compile Include="Assets/Scrpts/key_recollect.cs" />
     <Compile Include="Assets/Scrpts/zonainteraccion.cs" />
     <Compile Include="Assets/Scrpts/recolectar_libro.cs" />
+    <Compile Include="Assets/Scrpts/safe_controller.cs" />
+    <Compile Include="Assets/Scrpts/inventario.cs" />
     <Compile Include="Assets/BK_AlchemistHouse/Scripts/FreeCamera.cs" />
     <Compile Include="Assets/Scrpts/player_control.cs" />
     <Compile Include="Assets/Scrpts/door_controller.cs" />

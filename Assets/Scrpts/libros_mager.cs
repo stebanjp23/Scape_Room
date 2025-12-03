@@ -16,6 +16,9 @@ public class libros_mager : MonoBehaviour
     // Referencia al gestor central para reportar
     private Main_puzzles_sotano gestorPuzzles; 
 
+    [Header("Recompensa por Puzle")]
+    public safe_controller cajaRecompensa; // Referencia al script de la caja
+
 
     void Start()
     {
@@ -50,6 +53,11 @@ public class libros_mager : MonoBehaviour
         if (gestorPuzzles != null)
         {
             gestorPuzzles.ReportarPuzleResuelto("Libros"); 
+        }
+
+        if (cajaRecompensa != null)
+        {
+            cajaRecompensa.ActivarAperturaAutomatica();
         }
         
         // Dar feedback visual (activar movimiento)
