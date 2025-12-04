@@ -12,6 +12,8 @@ public class safe_controller : MonoBehaviour
 
     private Quaternion rotInicial;
     private Quaternion rotObjetivo;
+    private bool puzleResuelto = false;
+     private Main_puzzles_sotano gestorPuzzles; 
 
     void Start()
     {
@@ -30,9 +32,16 @@ public class safe_controller : MonoBehaviour
     public void ActivarAperturaAutomatica()
     {
         if (cajaAbierta) return;
+        
+        puzleResuelto = true;
         animando = true;
         cajaAbierta = true;
-        Debug.Log("¡CAJA ABIERTA POR PUZZLE RESUELTO!");
+       
+
+        if (gestorPuzzles != null)
+        {
+            gestorPuzzles.ReportarPuzleResuelto("Llave");
+        }
     }
 
     void Update()

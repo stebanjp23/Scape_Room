@@ -6,16 +6,9 @@ public class Main_puzzles_sotano : MonoBehaviour
     private bool puzleLibrosCompleto = false;
     private bool puzleFuciblesCompleto = false; // Usado para tu Puzle 2
     private bool puzle3Completo = false;        // Renombrado para consistencia
+    public GameObject puertaFinal; // Arrastra aquí la puerta final en el Inspector
 
-    // --- VARIABLES DE LA PUERTA (Ajustables en el Inspector) ---
-    public float openAngle = -90f;              // Cuánto se abre la puerta (ej. -90 grados)
-    public float speed = 2f;                    // Velocidad de apertura
-    
-    // --- LÓGICA DE APERTURA ---
-    private bool isOpen = false;                // Estado que activa la rotación
-    private Quaternion closedRotation;          // Rotación inicial
-    private Quaternion openRotation;            // Rotación final
-    
+
     // Contador para mostrar al jugador
     private int puzlesResueltos = 0;
     private const int TOTAL_PUZZLES = 3;
@@ -33,17 +26,19 @@ public class Main_puzzles_sotano : MonoBehaviour
     {
         bool resueltoAhora = false;
         
-        if (nombrePuzle == "Libros" && !puzleLibrosCompleto)
-        {
-            puzleLibrosCompleto = true;
-            resueltoAhora = true;
-        }
-        else if (nombrePuzle == "Fucibles" && !puzleFuciblesCompleto)
+        if(nombrePuzle == "Fucibles" && !puzleFuciblesCompleto)
         {
             puzleFuciblesCompleto = true;
             resueltoAhora = true;
+            Object.FindFirstObjectByType<MensajesGuia>().MostrarMensaje("Debes buscar el mensaje secreto", 3f);
         }
-        else if (nombrePuzle == "puzle3" && !puzle3Completo) // Corregido: usé puzle3Completo
+        else if  (nombrePuzle == "Libros" && !puzleLibrosCompleto)
+        {
+            puzleLibrosCompleto = true;
+            resueltoAhora = true;
+            Object.FindFirstObjectByType<MensajesGuia>().MostrarMensaje("Busca la llave", 3f);
+        }
+        else if (nombrePuzle == "Llave" && !puzle3Completo) 
         {
             puzle3Completo = true;
             resueltoAhora = true;
@@ -62,29 +57,13 @@ public class Main_puzzles_sotano : MonoBehaviour
     // --- FUNCIÓN PARA VERIFICAR LA CONDICIÓN FINAL ---
     private void VerificarCondicionVictoria()
     {
-        // CORRECCIÓN CLAVE: Verifica las 3 variables bool declaradas
         if (puzleLibrosCompleto && puzleFuciblesCompleto && puzle3Completo)
         {
-            AbrirPuertaFinal();
+            puertaFinal.GetComponent<door_controller>().llave = true;
         }
     }
 
-    // --- FUNCIÓN PARA ACTIVAR LA APERTURA (SE LLAMA UNA SOLA VEZ) ---
-    private void AbrirPuertaFinal()
-    {
-        Debug.Log("¡TODOS LOS PUZLES RESUELTOS! Abriendo puerta...");
-        // Esto solo cambia el estado. La animación ocurre en Update()
-        isOpen = true;
-    }
-
-    // --- FUNCIÓN DE ACTUALIZACIÓN (MANEJA LA ANIMACIÓN) ---
     void Update()
     {
-        if (isOpen)
-        {
-            // Mueve la rotación de la puerta (transform.rotation)
-            // de forma suave (Lerp) hacia la rotación final (openRotation)
-            transform.rotation = Quaternion.Lerp(transform.rotation, openRotation, Time.deltaTime * speed);
-        }
     }
 }

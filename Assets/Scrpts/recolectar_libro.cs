@@ -33,7 +33,7 @@ public class recolectar_libro : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             jugadorEnZona = true;
-            Debug.Log("Pulsa E para recoger el libro: " + gameObject.name); // Feedback para el usuario
+            FindObjectOfType<MensajesGuia>().MostrarMensaje("Pulsa E para recoger el libro", 3f);
         }
     }
 

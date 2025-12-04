@@ -17,9 +17,7 @@ public class key_recollect : MonoBehaviour
 
     private void RecogerLlave()
     {
-        Debug.Log("¡Llave recogida!");
-        // Aquí puedes hacer lo que quieras: añadir al inventario, desbloquear puerta, etc.
-    
+        
         InventarioJugador.TieneLlave = true;
 
         Destroy(gameObject); // Destruye la llave para simular que la recoge
@@ -30,7 +28,7 @@ public class key_recollect : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             jugadorEnZona = true;
-            Debug.Log("Pulsa E para recoger la llave.");
+            FindObjectOfType<MensajesGuia>().MostrarMensaje("Pulsa E para recojer la llave", 3f);
         }
     }
 

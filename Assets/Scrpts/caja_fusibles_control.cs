@@ -113,7 +113,7 @@ public class caja_fusibles_control : MonoBehaviour
                 gestorPuzzles.ReportarPuzleResuelto("Fucibles"); 
                 puzleResuelto = true; 
 
-                if (luzTechoComponente != null) // ¡Ahora esto funciona!
+                if (luzTechoComponente != null) 
                 {
                     luzTechoComponente.enabled = true; 
                 }
@@ -140,10 +140,10 @@ public class caja_fusibles_control : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             jugadorEnZona = true;
+            FindObjectOfType<MensajesGuia>().MostrarMensaje("Pulsa E para reiniciar el sistema", 3f);
         }
     }
 
-    // Se llama cuando el Jugador sale de la zona del libro
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))

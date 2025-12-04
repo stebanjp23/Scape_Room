@@ -9,10 +9,13 @@ public class door_controller : MonoBehaviour
     public Transform puerta;
     public float openAngle = -90f;       // Cuánto se abre la puerta
     public float speed = 2f;            // Velocidad de apertura
+    public bool llave = false;
     private bool isOpen = false;        // Estado de la puerta
     private Quaternion closedRotation;  // Rotación inicial
     private Quaternion openRotation;    // Rotación final
     private bool jugadorEnZona = false; //Ve si el jugador esta en la zona
+
+    private bool tiempoDetenido = false;
 
     void Start()
     {
@@ -23,7 +26,7 @@ public class door_controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (jugadorEnZona && Keyboard.current.rKey.wasPressedThisFrame && InventarioJugador.TieneLlave) // Suponiendo que hay un InventarioJugador estático
+        if (llave && jugadorEnZona && Keyboard.current.rKey.wasPressedThisFrame && InventarioJugador.TieneLlave) // Suponiendo que hay un InventarioJugador estático
         {
             isOpen = true;
             Debug.Log("Puerta abierta con llave.");
@@ -37,6 +40,13 @@ public class door_controller : MonoBehaviour
         {
             puerta.rotation = Quaternion.Lerp(puerta.rotation, closedRotation, Time.deltaTime * speed);
         }
+
+
+        if (isOpen && !tiempoDetenido)
+        {
+            FindObjectOfType<contador>().DetenerContador();
+            tiempoDetenido = true;
+        }
     }
 
      private void OnTriggerEnter(Collider other)
@@ -44,7 +54,7 @@ public class door_controller : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             jugadorEnZona = true;
-            Debug.Log("Acércate y presiona R para abrir la puerta.");
+            Object.FindFirstObjectByType<MensajesGuia>().MostrarMensaje("Presiona R para abrir la puerta", 3f);
         }
     }
 
