@@ -27,6 +27,7 @@ public class safe_controller : MonoBehaviour
         {
             llaveObjeto.SetActive(false);
         }
+
     }
 
     public void ActivarAperturaAutomatica()
@@ -36,12 +37,13 @@ public class safe_controller : MonoBehaviour
         puzleResuelto = true;
         animando = true;
         cajaAbierta = true;
-       
+
 
         if (gestorPuzzles != null)
         {
             gestorPuzzles.ReportarPuzleResuelto("Llave");
         }
+       
     }
 
     void Update()

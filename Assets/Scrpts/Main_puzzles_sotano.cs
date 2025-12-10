@@ -15,10 +15,6 @@ public class Main_puzzles_sotano : MonoBehaviour
 
     void Start()
     {
-        // La rotación inicial es la rotación actual del objeto (la puerta)
-        closedRotation = transform.rotation;
-        // La rotación final es la rotación inicial más el ángulo de apertura
-        openRotation = Quaternion.Euler(transform.eulerAngles + new Vector3(0, openAngle, 0));
     }
 
     // --- FUNCIÓN PÚBLICA PARA REPORTAR ESTADO ---
@@ -40,8 +36,9 @@ public class Main_puzzles_sotano : MonoBehaviour
         }
         else if (nombrePuzle == "Llave" && !puzle3Completo) 
         {
-            puzle3Completo = true;
             resueltoAhora = true;
+            puzle3Completo = true;
+            
         }
 
         if (resueltoAhora)

@@ -5,6 +5,13 @@ using UnityEngine.InputSystem;
 public class key_recollect : MonoBehaviour
 {
     private bool jugadorEnZona = false;
+    private Main_puzzles_sotano gestorPuzzles; 
+
+    
+    void Start()
+    {
+        gestorPuzzles = FindFirstObjectByType<Main_puzzles_sotano>();
+    }
 
     void Update()
     {
@@ -12,6 +19,7 @@ public class key_recollect : MonoBehaviour
         if (jugadorEnZona && Keyboard.current.eKey.wasPressedThisFrame)
         {
             RecogerLlave();
+            gestorPuzzles.ReportarPuzleResuelto("Llave"); 
         }
     }
 

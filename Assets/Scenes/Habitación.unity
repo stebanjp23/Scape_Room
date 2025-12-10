@@ -2768,6 +2768,7 @@ MonoBehaviour:
   puerta: {fileID: 1381879701}
   openAngle: -100
   speed: 2
+  llave: 0
 --- !u!1001 &276911438
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6939,8 +6940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13ac15a3d6d5c79a9819173c985a2706, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  openAngle: -90
-  speed: 2
+  puertaFinal: {fileID: 274984278}
 --- !u!4 &660031424 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 8cc7c851e3d911a49ab9b70b96c80527, type: 3}
@@ -7287,6 +7287,7 @@ MonoBehaviour:
   puerta: {fileID: 0}
   openAngle: -146
   speed: 2
+  llave: 0
 --- !u!65 &748286769
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22054,6 +22055,7 @@ MonoBehaviour:
   puerta: {fileID: 0}
   openAngle: -146
   speed: 2
+  llave: 0
 --- !u!65 &2002175060
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22356,6 +22358,7 @@ MonoBehaviour:
   puerta: {fileID: 0}
   openAngle: -146
   speed: 2
+  llave: 0
 --- !u!65 &2068518370
 BoxCollider:
   m_ObjectHideFlags: 0

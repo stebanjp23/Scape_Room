@@ -14,7 +14,6 @@ public class door_controller : MonoBehaviour
     private Quaternion closedRotation;  // Rotación inicial
     private Quaternion openRotation;    // Rotación final
     private bool jugadorEnZona = false; //Ve si el jugador esta en la zona
-
     private bool tiempoDetenido = false;
 
     void Start()
@@ -23,9 +22,12 @@ public class door_controller : MonoBehaviour
         openRotation = Quaternion.Euler(puerta.eulerAngles + new Vector3(0, openAngle, 0));
     }
 
+    
+
     // Update is called once per frame
     void Update()
     {
+
         if (llave && jugadorEnZona && Keyboard.current.rKey.wasPressedThisFrame && InventarioJugador.TieneLlave) // Suponiendo que hay un InventarioJugador estático
         {
             isOpen = true;
