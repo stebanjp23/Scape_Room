@@ -403,6 +403,7 @@ GameObject:
   - component: {fileID: 148704265}
   - component: {fileID: 148704264}
   - component: {fileID: 148704263}
+  - component: {fileID: 148704267}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -496,6 +497,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &148704267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148704262}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 188fe46232a5f80bb89ca6bc598404d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  escenaJuego: "Habitaci\xF3n"
 --- !u!1 &203844586
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,7 +958,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 188fe46232a5f80bb89ca6bc598404d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::menu
-  carga: pantalla_carga
+  escenaJuego: "Habitaci\xF3n"
 --- !u!1 &961739749
 GameObject:
   m_ObjectHideFlags: 0
