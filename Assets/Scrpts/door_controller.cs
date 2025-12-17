@@ -15,6 +15,7 @@ public class door_controller : MonoBehaviour
     private Quaternion openRotation;    // Rotación final
     private bool jugadorEnZona = false; //Ve si el jugador esta en la zona
     private bool tiempoDetenido = false;
+    public contador miContador;
 
     void Start()
     {
@@ -23,12 +24,10 @@ public class door_controller : MonoBehaviour
     }
 
     
-
-    // Update is called once per frame
     void Update()
     {
 
-        if (llave && jugadorEnZona && Keyboard.current.rKey.wasPressedThisFrame && InventarioJugador.TieneLlave) // Suponiendo que hay un InventarioJugador estático
+        if (llave && jugadorEnZona && Keyboard.current.rKey.wasPressedThisFrame && InventarioJugador.TieneLlave) 
         {
             isOpen = true;
             Debug.Log("Puerta abierta con llave.");
@@ -46,7 +45,7 @@ public class door_controller : MonoBehaviour
 
         if (isOpen && !tiempoDetenido)
         {
-            FindObjectOfType<contador>().DetenerContador();
+            miContador.DetenerContador();
             tiempoDetenido = true;
         }
     }

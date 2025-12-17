@@ -4,7 +4,7 @@ using System; // Agregado si usas FindFirstObjectByType en versiones modernas
 
 public class caja_fusibles_control : MonoBehaviour
 {
-    public GameObject luzTechoObjeto; // Arrastra la luz (o el foco) de techo aquí
+    public GameObject luzTechoObjeto; // Luz principal
     private Light luzTechoComponente; // Para controlar la intensidad
 
     // --- GESTIÓN DE PUZLE CENTRAL ---
